@@ -20,14 +20,14 @@ Suggested readings:
     * Same word, different meanings, e.g., planetary features vs ML features.
     * Connotations, e.g., Novelty vs Outlier vs Anomaly.
     * key points: 
-     * Same words can have different meanings, depending on the context.
-     * Define terms/jargon when working in multidiscilinary teams to avoid confusion and errors.
+      * Same words can have different meanings, depending on the context.
+      * Define terms/jargon when working in multidiscilinary teams to avoid confusion and errors.
     * The machine needs a language too
-     * Representation (relates to questions we want to ask)
-     * Explanations/justifications (so that human can understand)
+      * Representation (relates to questions we want to ask)
+      * Explanations/justifications (so that human can understand)
     * key points: 
-     * There is not one single correct way to represent your data - it depends on the nature of the data and the aims of your project.
-     * The way the data are represented may limit what conclusions you can draw from your data.
-     * Knowing why a model behaves the way it does is also important beyond just performance metrics.
+      * There is not one single correct way to represent your data - it depends on the nature of the data and the aims of your project.
+      * The way the data are represented may limit what conclusions you can draw from your data.
+      * Knowing why a model behaves the way it does is also important beyond just performance metrics.
      
    
