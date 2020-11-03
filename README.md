@@ -38,5 +38,5 @@ Suggested readings:
       * Why is the data missing? This requires you to know how the data was collected?
       * Sometimes, missing data arises because a value is unmeasurable (e.g., eccentricity cannot be calculated for a point such as a star)
       * Don't just blindly fill ("impute") the missing values without first understanding why the value is missing
-      
+    * Valid range of features: BREAK HERE      
    
