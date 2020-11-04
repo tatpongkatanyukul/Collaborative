@@ -48,3 +48,9 @@ Suggested readings:
     * They test the system in the way it will be deployed, i.e., taking previous data and let it predicts known pulsar, candidate, none as the project goes.
     * successively held out evaluation, replicating what they will be used in real life.
     * Also, show how much human effort the ML system can save.
+
+Key ingredients for successful collaboration in data science:
+  * Expertise
+  * Shared language
+  * Knowing your data's characteristics
+  * Meaningful evaluation
