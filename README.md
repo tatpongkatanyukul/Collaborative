@@ -60,4 +60,14 @@ Key ingredients for successful collaboration in data science:
 Successful data analytics
   * Sufficient clean, unbiased feature data
   * Advanced analytics/AI techniques
-  * Right outputs in the right place
+  * Right outputs in the right place / sound application and deployment in the real-world setting
+    * how to deploy it in the effective way
+    
+Four key technologies
+  * Large-scale data warehousing and analytics
+    * get data into the same place
+  * Sensor networks and personal computing
+  * Machine intelligence
+    * challenge: better use of the limited data
+  * Public cloud computing
+    * provide uniformity access/treat to data collecting from or storing in different locations.
