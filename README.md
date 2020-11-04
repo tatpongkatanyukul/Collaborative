@@ -71,3 +71,5 @@ Four key technologies
     * challenge: better use of the limited data
   * Public cloud computing
     * provide uniformity access/treat to data collecting from or storing in different locations.
+ 
+Next: 1.02 > Utilizing Healthcare Data
