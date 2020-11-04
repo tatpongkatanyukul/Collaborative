@@ -54,3 +54,10 @@ Key ingredients for successful collaboration in data science:
   * Shared language
   * Knowing your data's characteristics
   * Meaningful evaluation
+
+1.02 A Data Science Revolution in Healthcare
+
+Successful data analytics
+  * Sufficient clean, unbiased feature data
+  * Advanced analytics/AI techniques
+  * Right outputs in the right place
