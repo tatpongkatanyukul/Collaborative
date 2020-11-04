@@ -46,3 +46,5 @@ Suggested readings:
   * V-FASTR classifier
     * Instead of ROC, which is risky, since ML is based on an assumption that the training and deploying data have the same distribution
     * They test the system in the way it will be deployed, i.e., taking previous data and let it predicts known pulsar, candidate, none as the project goes.
+    * successively held out evaluation, replicating what they will be used in real life.
+    * Also, show how much human effort the ML system can save.
