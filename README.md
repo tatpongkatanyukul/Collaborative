@@ -73,3 +73,7 @@ Four key technologies
     * provide uniformity access/treat to data collecting from or storing in different locations.
  
 Next: 1.02 > Utilizing Healthcare Data
+
+
+
+# Final Exam (Due Jan 25, 2020)
