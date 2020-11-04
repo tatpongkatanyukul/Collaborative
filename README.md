@@ -40,3 +40,9 @@ Suggested readings:
       * Don't just blindly fill ("impute") the missing values without first understanding why the value is missing
     * Valid range of features: BREAK HERE      
    
+# Nov 4, 2020
+
+"Meaningful evaluation"
+  * V-FASTR classifier
+    * Instead of ROC, which is risky, since ML is based on an assumption that the training and deploying data have the same distribution
+    * They test the system in the way it will be deployed, i.e., taking previous data and let it predicts known pulsar, candidate, none as the project goes.
