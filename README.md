@@ -99,6 +99,8 @@ Key points
   * It is endeavored to build an environment for structured, seamless inpatient and outpatient data collection, producing high-quality, complete medical records for patients and research purposes.
   * Accumulation and integration of all types of data (genomic data, physical data, etc.) will allow for more powerful models of disease progression and therapy
   
+Automatic diagnosis of diabetic retinopathy
+  * Gulshan and Peng et al. JAMA 2016: Inception model: --> No DR, Mild DR, Moderate DR, Severe DR, Proliferative DR; Image quality, L/R eye, Field of view
 
 Next: 
 
