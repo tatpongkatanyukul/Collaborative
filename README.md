@@ -94,7 +94,10 @@ Challeges for AI approaches
   * 2018 FDA approved AI-based method on diabetic retinopathy
   * Appropriate regulatory bodies, statutory quality control and legislation for medical AI algorithms are yet to be developed
   * In healthcare, high-quality datasets are scarce as there is much variation in the way observations are recorded
-  
+
+Key points
+  * It is endeavored to build an environment for structured, seamless inpatient and outpatient data collection, producing high-quality, complete medical records for patients and research purposes.
+  * Accumulation and integration of all types of data (genomic data, physical data, etc.) will allow for more powerful models of disease progression and therapy
   
 
 Next: 
