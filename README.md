@@ -84,6 +84,19 @@ Machine Intelligence
   * Deep learning is a tool used in machine learning
   * When developing machine learning models, it is important to consider the availibility of data at the time of making the prediction
 
+Predictive models
+  * Rule-based systems: input -> hand-designed features -> output
+  * classical machine learning: input -> hand-designed features -> mapping from features (learned) -> output
+  * representation learning: input -> features (learned) -> mapping from features (learned) -> output
+  * deep learning: input -> simple features (learned) -> additional layers of more abstract features (learned) -> mapping from features (learned) -> output
+  
+Challeges for AI approaches
+  * 2018 FDA approved AI-based method on diabetic retinopathy
+  * Appropriate regulatory bodies, statutory quality control and legislation for medical AI algorithms are yet to be developed
+  * In healthcare, high-quality datasets are scarce as there is much variation in the way observations are recorded
+  
+  
+
 Next: 
 
 
