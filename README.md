@@ -105,6 +105,12 @@ Automatic diagnosis of diabetic retinopathy
     * The architecture of neural networks is transferable between problems
     * Neural networks have the ability to adapt themselves to solve new problems without needing additional rules
 
+Medicine rebuilt as data science
+  * Many aspects of modern medicine are often built on circumstantial, outdated, or anecdotal evidence
+    * Old study leads to medical conclusion, e.g., pregnancy after 35 is risky, from pre-revolution France.
+  * Modern data-driven techniques hanve the potential to improve the evidence basis in medicine.
+  * Balancing exploration vs exploitation
+
 Next: 
 
 
