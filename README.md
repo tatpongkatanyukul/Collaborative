@@ -110,6 +110,16 @@ Medicine rebuilt as data science
     * Old study leads to medical conclusion, e.g., pregnancy after 35 is risky, from pre-revolution France.
   * Modern data-driven techniques hanve the potential to improve the evidence basis in medicine.
   * Balancing exploration vs exploitation
+  
+Quiz
+  * A model used in dispensing drug prescriptions on a national level would be an example of [Distributed Operational Model].
+  * Which one of the following would NOT be considered a component for successful data analytics?
+    * Deployment of a model trained on a highly homogenous sample population
+    * Other choices:
+      * Sufficient amount of clean, unbiased data
+      * Advanced articitial intelligence techniques
+      * Sound application and deployment in real-world setting
+    
 
 Next: 
 
