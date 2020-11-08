@@ -72,7 +72,20 @@ Four key technologies
   * Public cloud computing
     * provide uniformity access/treat to data collecting from or storing in different locations.
  
-Next: 1.02 > Utilizing Healthcare Data
+# Nov 8th, 2020
+1.02 Utilizing Healthcare Data
+  * In healthcare data science, there are clinical and operational use cases of data analytics
+  * Analytics can serve on a local or distributed basis, both of which have their advantages and disadvantages
+  
+Machine Intelligence
+  * Machine intelligence (a term used in data science) describes a computer's ability to predict an outcome using a given set of variables
+    * For example, predicting mortality in a given patient using clinical observations, vital signs, and laboratory results as variables
+  * Machine learning - computer's ability to learn without being explicitly programmed - can be thougth of as a method of accomplishing "machine intelligence"
+  * Deep learning is a tool used in machine learning
+  * When developing machine learning models, it is important to consider the availibility of data at the time of making the prediction
+
+Next: 
+
 
 
 
