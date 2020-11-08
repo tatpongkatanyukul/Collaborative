@@ -101,6 +101,9 @@ Key points
   
 Automatic diagnosis of diabetic retinopathy
   * Gulshan and Peng et al. JAMA 2016: Inception model: --> No DR, Mild DR, Moderate DR, Severe DR, Proliferative DR; Image quality, L/R eye, Field of view
+    * https://jamanetwork.com/journals/jama/fullarticle/2588763
+    * The architecture of neural networks is transferable between problems
+    * Neural networks have the ability to adapt themselves to solve new problems without needing additional rules
 
 Next: 
 
