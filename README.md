@@ -122,7 +122,10 @@ Quiz
   * Which element is MOST important when developing a predictive model?
     * Availability of data at time of prediction
 
-Next: 1.03 EHRs and Registries
+
+# Nov 16, 2020
+
+1.03 EHRs and Registries
 
 
 
