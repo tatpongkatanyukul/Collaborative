@@ -40,4 +40,15 @@ WHERE subject_id = 109
 OR subject_id = 117;
 ```
 
+Complex questions can be answered by joining multiple tables to create a composite result.
+Join keywords: INNER JOIN, LEFT JOIN, RIGHT JOIN
 
+Example: INNER JOIN will only return rows where subject_id appears in both the patients table and admissions table
+
+```
+SELECT p.subject_id, p.dob, a.hadm_id, a.admittime
+FROM patient p
+INNER JOIN admission a
+ON p.subject_id = a.subject_id
+ORDER BY subject_id, hadm_id;
+```
