@@ -30,3 +30,14 @@ FROM table
 [WHERE conditions]
 [ORDER BY columns];
 ```
+
+Example:
+
+```
+SELECT subject_id, dob
+FROM patients
+WHERE subject_id = 109
+OR subject_id = 117;
+```
+
+
