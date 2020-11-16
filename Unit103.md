@@ -52,3 +52,10 @@ INNER JOIN admission a
 ON p.subject_id = a.subject_id
 ORDER BY subject_id, hadm_id;
 ```
+
+
+## MIMIC III
+MIMIC-III is an openly available dataset developed by the MIT lab for computational physiology.
+[MIMIC-III paper](http://www.nature.com/articles/sdata201635)
+
+[MIMIC-III Website](http://mimic.physionet.org/mimictables/admissions/)
