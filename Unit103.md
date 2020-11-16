@@ -59,3 +59,5 @@ MIMIC-III is an openly available dataset developed by the MIT lab for computatio
 [MIMIC-III paper](http://www.nature.com/articles/sdata201635)
 
 [MIMIC-III Website](http://mimic.physionet.org/mimictables/admissions/)
+
+[Querybuilder](http://mimic.physionet.org/gettingstarted/querybuilder)
