@@ -24,3 +24,9 @@ Relational database is based on relational algebra
 The standard SQL commands are create, select, insert, update, delete, and drop.
 
 
+```
+SELECT columns
+FROM table
+[WHERE conditions]
+[ORDER BY columns];
+```
