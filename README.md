@@ -31,7 +31,10 @@ Suggested readings:
 [1.03 EHRs and Registries](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit103.md)
 stop before Introduction to MIMIC-III
 
+# ???, 2020
 
+Continue on [1.03 EHRs and Registries](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit103.md)
+(starting at Introduction to MIMIC-III)
 
 
 # Final Exam (Due Jan 25, 2020)
