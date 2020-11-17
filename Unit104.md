@@ -29,7 +29,7 @@ Video: Multiple testing and and spurious findings (example: dead salmon study)
       * Another way is to use **false discovery rate** (proposed by [Benjamin and Hochberg](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Benjamini%20and%20Y%20FDR.pdf))
         * we are interested in the proportion of our discoveries that are false.
         * I.e. we are willing to live with say 5% of our discoveries being false
-        * E[ # false positives/ # total positives ] < \alpha
+        * E[ # false positives/ # total positives ] < alpha
         * FDR (false discovery rate) is good especially for imbalanced data (# positives is much smaller than # negatives)
     
     
