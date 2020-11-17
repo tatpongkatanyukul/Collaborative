@@ -29,12 +29,10 @@ Suggested readings:
 # Nov 16, 2020
 
 [1.03 EHRs and Registries](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit103.md)
-stop before Introduction to MIMIC-III
 
-# ???, 2020
+# Nov 17, 2020
+[1.04 Challenges in Health Data Science](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit104.md)
 
-Continue on [1.03 EHRs and Registries](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit103.md)
-(starting at Introduction to MIMIC-III)
 
 
 # Final Exam (Due Jan 25, 2020)
