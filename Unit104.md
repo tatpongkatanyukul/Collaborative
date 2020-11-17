@@ -26,7 +26,7 @@ Video: Multiple testing and and spurious findings (example: dead salmon study)
         * But if we are looking at 8000 tests, instead of controlling the probability of false positive for an individual test, we should control for that across the entire set of tests.
         * I.e. we want to only have maybe one false positive across that entire set of 8000 tests that are really low probability.
         * One way to do it is that taking that 5% threshold (or p-value of your choice) divided by the number of tests you have and then use that as your cutoff for significance.
-      * Another way is to use **false discovery rate** (proposed by Benjamin Ian Hochberg)
+      * Another way is to use **false discovery rate** (proposed by [Benjamin and Hochberg](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Benjamini%20and%20Y%20FDR.pdf))
         * we are interested in the proportion of our discoveries that are false.
         * I.e. we are willing to live with say 5% of our discoveries being false
     
