@@ -19,5 +19,15 @@ Video: Multiple testing and and spurious findings (example: dead salmon study)
     * "... random noise in the EPI timeseries may yield spurious results if multiple comparisons are not controlled for ..."
     * The full title of the article is that **an argument for multiple comparisons**
       * [Craig M. Bennett, Michael Miller, and George L Wolford. Neural correlates of interspecies perspective taking in the post-mortem Atlantic Salmon: an argument for multiple comparisons correction, July 2009. Neuro Image 47. DOI: 10.1016/S1053-8119(09)71202-9.](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Bennett-Salmon-2009.pdf)
+      
+    * **Then what can we do?**
+      * we can try to control **a family wise error rate**
+        * p-value ~ probability of having a false positive for an individual test.
+        * But if we are looking at 8000 tests, instead of controlling the probability of false positive for an individual test, we should control for that across the entire set of tests.
+        * I.e. we want to only have maybe one false positive across that entire set of 8000 tests that are really low probability.
+        * One way to do it is that taking that 5% threshold (or p-value of your choice) divided by the number of tests you have and then use that as your cutoff for significance.
+      * Another way is to use **false discovery rate** (proposed by Benjamin Ian Hochberg)
+        * we are interested in the proportion of our discoveries that are false.
+        * I.e. we are willing to live with say 5% of our discoveries being false
     
     
