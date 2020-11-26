@@ -35,3 +35,4 @@ Video: Multiple testing and and spurious findings (example: dead salmon study)
 Reproducibility Crisis
   * The lack of reproducibility of research findings has been repeatedly identified as an issue in modern science
   * Approaches to improving on the reproducibility include revising methodologies and giving detailed insight into how studies were conducted.
+  * Psychology may need about 10000 subjects to be a reliable data, but experiments typically were conducted on about 50 subjects.
