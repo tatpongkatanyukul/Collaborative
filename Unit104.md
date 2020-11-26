@@ -38,6 +38,7 @@ Reproducibility Crisis
   * Psychology may need about 10000 subjects to be a reliable data, but experiments typically were conducted on about 50 subjects.
   * Modern, sophisticated research questions would often require a large number of participants for the study to reveal the "true effect"
   * Large datasets ("Big Data") are thought of as an opportunity to address the reocurring issue of undersized study populations.
+  * low quality data or data with a lot of noise may be a part of the cause.
   * MY IDEA: perhaps, part of it may be from "survival bias" (bad results cannot get published.)
 
 Considerations of Fairness
@@ -55,3 +56,6 @@ Summary
   * Data science grants the opportunity to address recurring issues of undersized study populations via "big data"
   * Framing the problem for a research study is as important as the accuracy of the model itself
   * RCTs remain gold standard for estimating effect of an exposure on an outcome, but are limited by time investment, ethical issues, narrow populations and interferences. They are also not inherently free of bias.
+
+Questions
+* 
