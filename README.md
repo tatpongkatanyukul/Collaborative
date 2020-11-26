@@ -39,6 +39,8 @@ Suggested readings:
 (start at text: reproducibility crisis)
 
 # ?
+(next: 2.00 Walkthrough example)
+
 Unit 2
   * 2.01 how to transform a clinical question into a pertinent research question (inc. defining study design and selecting the exposure and outcome of interest)
   * 2.02 how to define which patient population is most relevant for investigating the research question
