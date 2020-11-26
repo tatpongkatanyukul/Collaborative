@@ -38,5 +38,16 @@ Suggested readings:
 [1.04 Challenges in Health Data Science](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit104.md)
 (start at text: reproducibility crisis)
 
+# ?
+Unit 2
+2.01 how to transform a clinical question into a pertinent research question (inc. defining study design and selecting the exposure and outcome of interest)
+2.02 how to define which patient population is most relevant for investigating the research question
+2.03-2.04 data preparation and pre-processing
+2.05 dealing with missing data
+2.06 handling outliers
+2.07 common methods for exploring data
+2.08-2.09 data analysis (linear regression, logistic regression and survival analysis inc. Cox proportional hazards models)
+2.10 model validation and sensitivity analyses (robustness in the face of varying model assumptions)
+
 
 # Final Exam (Due Jan 25, 2020)
