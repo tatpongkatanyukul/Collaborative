@@ -46,3 +46,12 @@ Considerations of Fairness
     * Consider the ethical implications when framing your problem and how to solve it.
     
 Limitations of Randomized Controlled Trials
+  * Randomized Controlled Trials (RCTs) are the gold standard for estimating the effect of an exposure on an outcome
+  * Limitations of RCTs include time investment, ethical issues, narrow population, narrow inference, not entirely free of bias
+  
+Summary
+  * Every research hypothesis should have a null hypothesis and an alternative hypothesis for statistical hypothesis testing
+  * Hypothesis testing may yield spurious results, always check that your statistical results are scientifically feasible and plausible.
+  * Data science grants the opportunity to address recurring issues of undersized study populations via "big data"
+  * Framing the problem for a research study is as important as the accuracy of the model itself
+  * RCTs remain gold standard for estimating effect of an exposure on an outcome, but are limited by time investment, ethical issues, narrow populations and interferences. They are also not inherently free of bias.
