@@ -38,3 +38,11 @@ Reproducibility Crisis
   * Psychology may need about 10000 subjects to be a reliable data, but experiments typically were conducted on about 50 subjects.
   * Modern, sophisticated research questions would often require a large number of participants for the study to reveal the "true effect"
   * Large datasets ("Big Data") are thought of as an opportunity to address the reocurring issue of undersized study populations.
+  * MY IDEA: perhaps, part of it may be from "survival bias" (bad results cannot get published.)
+
+Considerations of Fairness
+  * Are we framing the problem correctly?
+    * It is imperative to consider the framing of the problem you are trying to solve, do not just worry about the accuracy of the model
+    * Consider the ethical implications when framing your problem and how to solve it.
+    
+Limitations of Randomized Controlled Trials
