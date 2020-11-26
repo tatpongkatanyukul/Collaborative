@@ -34,7 +34,7 @@ Suggested readings:
 [1.04 Challenges in Health Data Science](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit104.md)
 (stop after watching video: multiple testing and spurious findings---dead salmon study)
 
-# ???, 2020
+# Nov 26, 2020
 [1.04 Challenges in Health Data Science](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit104.md)
 (start at text: reproducibility crisis)
 
