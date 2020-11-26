@@ -32,4 +32,6 @@ Video: Multiple testing and and spurious findings (example: dead salmon study)
         * E[ # false positives/ # total positives ] < alpha
         * FDR (false discovery rate) is good especially for imbalanced data (# positives is much smaller than # negatives)
     
-    
+Reproducibility Crisis
+  * The lack of reproducibility of research findings has been repeatedly identified as an issue in modern science
+  * Approaches to improving on the reproducibility include revising methodologies and giving detailed insight into how studies were conducted.
