@@ -77,3 +77,11 @@ It is a course required to pass before getting approval for accessing MIMIC-III 
    * the selection of subjects of research (not biased toward any minority, race, or a particular group)
    
 ## History and Ethnics of Human Subjects Research
+  * Edward Jenner (1789) ... smallpox vaccine
+  * Claude Bernard (1865) ... developed ethical maxim
+  * Louise Pasteur (1885) ... rabies vaccine
+  * Walter Reed (1900) ... yellow fever vaccine
+  * Nuremberg War Crime Trials
+  * The Nuremberg Code (1947)
+  
+  
