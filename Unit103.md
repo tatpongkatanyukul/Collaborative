@@ -124,3 +124,9 @@ These principles "provide an analytical framework that will guide the resolution
     * 45 CFR 46
     * 21 CFR 50 and 56
     * 21 CFR 812 and 312
+  
+  * International Regulations
+    * Declaration of Helsinki
+    * CIOMS guidelines
+    * WHO guidelines
+    * ICH guidelines
