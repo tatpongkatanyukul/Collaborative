@@ -61,3 +61,19 @@ MIMIC-III is an openly available dataset developed by the MIT lab for computatio
 [MIMIC-III Website](http://mimic.physionet.org/mimictables/admissions/)
 
 [Querybuilder](http://mimic.physionet.org/gettingstarted/querybuilder)
+
+
+# CITI Course
+
+It is a course required to pass before getting approval for accessing MIMIC-III data
+
+## 3 Principles of human research
+ * respect of a person
+   * inform consent: information, comprehension, and voluntariness 
+     * information: research procedure, purposes, risks, anticipated benefits, alternative procedure (e.g., therapeutic treatment if available), and chance to ask questions
+ * beneficence
+   * rish/benefit assessment
+ * justice
+   * the selection of subjects of research (not biased toward any minority, race, or a particular group)
+   
+## History and Ethnics of Human Subjects Research
