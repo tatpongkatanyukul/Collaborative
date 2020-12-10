@@ -94,5 +94,10 @@ It is a course required to pass before getting approval for accessing MIMIC-III 
     * The study examined the natural course of untreated syphilis in Black American men.
     * The subjects, all impoverished sharecroppers from Macon County, Alabama, were unknowing subjects in the study; they were not told that they had syphilis, nor were they offered effective treatment when it became available in the late 1940s with the advent of penicillin.
     * The study concluded in 1972 when stories about the study appeared in the public press and caused a public outcry.
+  * Other abuses: 
+    * Willowbrook studies (1956-1970): children with intellectual disabilities were deliberately infected with the hepatitis virus
+    * Jewish Chronic Disease Hospital Study (1963): live cancer cells were injected into 22 cognitively impaired patients.
+    * prisoner research
+  * National Research Act
   
   
