@@ -69,10 +69,10 @@ It is a course required to pass before getting approval for accessing MIMIC-III 
 
 ## The Belmont Report: 3 Principles of human research
 
- * Respect of persons
+ * Respect of persons: "To respect autonomy is to give weight to autonomous persons' considered opinions and choices while refraining from obstructing their actions unless they are clearly detrimental to others."
    * inform consent: information, comprehension, and voluntariness 
      * information: research procedure, purposes, risks, anticipated benefits, alternative procedure (e.g., therapeutic treatment if available), and chance to ask questions
- * Beneficence
+ * Beneficence: "The problem posed by these imperatives is to decide when it is justifiable to seek certain benefits despite the risks involved, and when the benefits should be foregone because of the risks."
    * rish/benefit assessment
  * Justice
    * the selection of subjects of research (not biased toward any minority, race, or a particular group)
@@ -105,4 +105,6 @@ These principles "provide an analytical framework that will guide the resolution
     * National Commission for the Protection of Human Subjects of Biomedical and Behavior Research ... guidelines
     * Institutional Review Boards (IRBs)
   
-  
+  * Application of Respect for Persons
+    * Informed Consent
+    * Privacy
