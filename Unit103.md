@@ -105,6 +105,10 @@ These principles "provide an analytical framework that will guide the resolution
     * National Commission for the Protection of Human Subjects of Biomedical and Behavior Research ... guidelines
     * Institutional Review Boards (IRBs)
   
-  * Application of Respect for Persons
+  * Application of **Respect for Persons**
     * Informed Consent
     * Privacy
+    
+  * Application of **Beneficence**
+    * Systematic Assessment of Risks and Benefits
+    * Minimization of Risk
