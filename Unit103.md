@@ -87,5 +87,12 @@ It is a course required to pass before getting approval for accessing MIMIC-III 
     * That the research has scientific merit
     * That the benefits of the research outweigh risks
     * That the subjects have the ability to terminate participation in the research at anytime
+  * Henry K. Beecher article (1966, 1354-60), Ethics and Clinical Research: unethical research was not confined to Nazi atrocities.
+  * US Public Health Service study of untreated syphilis
+    * medical research project conducted by the PHS from 1932-1972
+    * aka Tuskegee Syphilis Study
+    * The study examined the natural course of untreated syphilis in Black American men.
+    * The subjects, all impoverished sharecroppers from Macon County, Alabama, were unknowing subjects in the study; they were not told that they had syphilis, nor were they offered effective treatment when it became available in the late 1940s with the advent of penicillin.
+    * The study concluded in 1972 when stories about the study appeared in the public press and caused a public outcry.
   
   
