@@ -67,7 +67,7 @@ MIMIC-III is an openly available dataset developed by the MIT lab for computatio
 
 It is a course required to pass before getting approval for accessing MIMIC-III data
 
-## 3 Principles of human research
+## The Belmont Report: 3 Principles of human research
  * respect of a person
    * inform consent: information, comprehension, and voluntariness 
      * information: research procedure, purposes, risks, anticipated benefits, alternative procedure (e.g., therapeutic treatment if available), and chance to ask questions
@@ -99,5 +99,7 @@ It is a course required to pass before getting approval for accessing MIMIC-III 
     * Jewish Chronic Disease Hospital Study (1963): live cancer cells were injected into 22 cognitively impaired patients.
     * prisoner research
   * National Research Act
+    * National Commission for the Protection of Human Subjects of Biomedical and Behavior Research ... guidelines
+    * Institutional Review Boards (IRBs)
   
   
