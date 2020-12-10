@@ -74,7 +74,7 @@ It is a course required to pass before getting approval for accessing MIMIC-III 
      * information: research procedure, purposes, risks, anticipated benefits, alternative procedure (e.g., therapeutic treatment if available), and chance to ask questions
  * Beneficence: "The problem posed by these imperatives is to decide when it is justifiable to seek certain benefits despite the risks involved, and when the benefits should be foregone because of the risks."
    * rish/benefit assessment
- * Justice
+ * Justice: The principle of justice requires a fair sharing of the burdens and benefits of research and that groups are not exploited because of their circumstances.
    * the selection of subjects of research (not biased toward any minority, race, or a particular group)
 
 These principles "provide an analytical framework that will guide the resolution of ethical problems arising from research involving human subjects" (The National Commission 1979)
