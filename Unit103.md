@@ -83,5 +83,9 @@ It is a course required to pass before getting approval for accessing MIMIC-III 
   * Walter Reed (1900) ... yellow fever vaccine
   * Nuremberg War Crime Trials
   * The Nuremberg Code (1947)
+    * A requirement for voluntary consent
+    * That the research has scientific merit
+    * That the benefits of the research outweigh risks
+    * That the subjects have the ability to terminate participation in the research at anytime
   
   
