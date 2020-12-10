@@ -68,14 +68,17 @@ MIMIC-III is an openly available dataset developed by the MIT lab for computatio
 It is a course required to pass before getting approval for accessing MIMIC-III data
 
 ## The Belmont Report: 3 Principles of human research
- * respect of a person
+
+ * Respect of persons
    * inform consent: information, comprehension, and voluntariness 
      * information: research procedure, purposes, risks, anticipated benefits, alternative procedure (e.g., therapeutic treatment if available), and chance to ask questions
- * beneficence
+ * Beneficence
    * rish/benefit assessment
- * justice
+ * Justice
    * the selection of subjects of research (not biased toward any minority, race, or a particular group)
-   
+
+These principles "provide an analytical framework that will guide the resolution of ethical problems arising from research involving human subjects" (The National Commission 1979)
+
 ## History and Ethnics of Human Subjects Research
   * Edward Jenner (1789) ... smallpox vaccine
   * Claude Bernard (1865) ... developed ethical maxim
