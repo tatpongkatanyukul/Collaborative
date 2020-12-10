@@ -112,3 +112,6 @@ These principles "provide an analytical framework that will guide the resolution
   * Application of **Beneficence**
     * Systematic Assessment of Risks and Benefits
     * Minimization of Risk
+  
+  * Application of **Justice**
+    * Selection of Subjects
