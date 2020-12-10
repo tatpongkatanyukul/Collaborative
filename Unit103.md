@@ -119,3 +119,8 @@ These principles "provide an analytical framework that will guide the resolution
   * General Considerations
     * At times, the principles might come in conflict with each other. 
     * For example, beneficence vs justice: the need to protect children from risk might come in conflict with the need to include children for scientific validity.
+    
+  * Development of US Regulations (cont.)
+    * 45 CFR 46
+    * 21 CFR 50 and 56
+    * 21 CFR 812 and 312
