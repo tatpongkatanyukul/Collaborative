@@ -140,7 +140,7 @@ Jesse suffered from partial ornithine transcarbamylase (OTC) deficiency and the 
 The study was not desinged to provide a direct benefit to the subjects, but to determine the safety and efficacy of the procedure.
 
 Within hours of receiving a direct infusion of [an adenoviral vector](https://en.wikipedia.org/wiki/Viral_vector) in his liver, Jesse developed a high fever.
-His immune system began raging out of control, his blood began clothing, ammonia levels climbed, his liver [hemorrhaged](https://www.healthline.com/health/bleeding), and a flood of white blood cells shut down his lungs. Jesse died on 17 September 1999.
+His immune system began raging out of control, his blood began cloting, ammonia levels climbed, his liver [hemorrhaged](https://www.healthline.com/health/bleeding), and a flood of white blood cells shut down his lungs. Jesse died on 17 September 1999.
 
 Subsequent investigation determined that Jesse did not exactly meet the inclusion criteria, the risks and potential adverse events were not adequately disclosed in the informed consent document, and there were also significant conflicts of interest, both financial and non-financial, for the researcher and organization.
 
