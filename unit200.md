@@ -10,4 +10,6 @@ Hsu et al. addressed a key question: "is the placement of an indwelling arterial
   * Given  IAC invasive nature, IACs carry risks of bloodstream infection and vascular injury, so the evidence of a beneficial effect requires evaluation.
   * The primary outcomes of interest selected was 28-day mortality
   * the secondary outcomes include ICU and hospital length-of-stay, duration of mechanical ventilation, and mean number of blood gas measurements made.
+  * The authors identified the encounter-centric 'arterial catheter placement' as their exposure of interest and carried out a propensity score analysis to test the relationship between the exposure and outcomes uning MIMIC.
+  * The result is that the presence of an IAC is not associated with a difference in 28-day mortality, in hemodynamically stable patients who are mechanically ventillated.
   
