@@ -38,8 +38,8 @@ Suggested readings:
 [1.04 Challenges in Health Data Science](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit104.md)
 (start at text: reproducibility crisis)
 
-# ?
-(next: 2.00 Walkthrough example)
+# Dec 15, 2020
+2.00 [Walkthrough example](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit200.md)
 
 Unit 2
   * 2.01 how to transform a clinical question into a pertinent research question (inc. defining study design and selecting the exposure and outcome of interest)
