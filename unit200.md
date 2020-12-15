@@ -13,3 +13,13 @@ Hsu et al. addressed a key question: "is the placement of an indwelling arterial
   * The authors identified the encounter-centric 'arterial catheter placement' as their exposure of interest and carried out a propensity score analysis to test the relationship between the exposure and outcomes uning MIMIC.
   * The result is that the presence of an IAC is not associated with a difference in 28-day mortality, in hemodynamically stable patients who are mechanically ventillated.
   
+Introduction: it is important to formulate the research problem properly and transform it into a research query.
+The process of developing a research question involves defining several components of the study, which include:
+  * Study sample (For whom is this research question relevant?)
+  * Exposure (The drug, maneuver, event or characteristic we are investigating)
+  * Outcome of interest (What are we measuring as an outcome variable?)
+  
+With these components in mind, the researcher must decide which study design is best or most feasible for answering the research question.
+
+next (in the section) ... how to convert a clinical question into a research question
+(Reference: MIT Critical Data - Secondary Analysis of Electronic Health Records. Chapter 9: Formulating the research question - Anuj Mehta, Brian Malley and Allan Walkey)
