@@ -8,4 +8,11 @@ Learning objectives
   * Principles of defining the outcomes
   * Selecting an appropriate study design
   
-  Next: FINER mnimonic
+ FINER mnimonic
+ feasible
+ interesting
+ novel
+ ethical
+ relevant
+ 
+	
