@@ -15,4 +15,10 @@ Learning objectives
  ethical
  relevant
  
+ PICO
+ P: The population of subjects defined by the researcher (Patients/study sample)
+I: The drug, event or characteristic that we are basing our alternative hypothesis on (Intervention/exposure)
+C: The “unexposed” or control group needed to assess the effectiveness of healthcare interventions (Control)
+O: The predefined outcome of interest (Outcome)
+ 
 	
