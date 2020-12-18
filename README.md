@@ -42,7 +42,8 @@ Suggested readings:
 2.00 [Walkthrough example](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit200.md)
 
 Unit 2
-  * 2.01 how to transform a clinical question into a pertinent research question (inc. defining study design and selecting the exposure and outcome of interest)
+  * [2.01(https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit200.md)
+ how to transform a clinical question into a pertinent research question (inc. defining study design and selecting the exposure and outcome of interest)
   * 2.02 how to define which patient population is most relevant for investigating the research question
   * 2.03-2.04 data preparation and pre-processing
   * 2.05 dealing with missing data
