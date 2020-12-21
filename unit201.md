@@ -21,4 +21,12 @@ PICO
   * C: The “unexposed” or control group needed to assess the effectiveness of healthcare interventions (Control)
   * O: The predefined outcome of interest (Outcome)
  
+Intervention
+  * Example Arterial catheter placement
+    * Does timing of placement matter?
+     	* It is not just what is your intervention, but when you apply your intervention.
 	
+Control
+  * Example: in the case of the IAC study, the control group is fairly straightforward: patients receiving  mechanical ventilation (MV) who did not have an IAC placed.
+  * an alternative control group could be all ICU patients no receiving an IAC.
+  * However, the inclusion of patients not receiving MV results in a control group with lower severity of illness and expected mortality than patients receiving MV, which would bias in favor of not using IACs.
