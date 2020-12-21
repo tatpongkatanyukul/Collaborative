@@ -61,6 +61,6 @@ Clinical question: "Should I put an arterial catheter in my patient" --> Researc
   * Outcome(s)
     * Primary: mortality
     * Secondary: lenght of stay (LOS), # blood gases
-> "Among mechanically ventilated adult ICU patients who are not receiving vasoactive medications (**P**), is placement of an AC (**I**) after initiation of MV (as compared with not receiving an AC [**C**]) associated with improved 28-day mortality rates (**O**), length of stay, and teh number of blood gas measurements per day (supporting/balancing secondary outcomes, intermediate/m 
+> "Among mechanically ventilated adult ICU patients who are not receiving vasoactive medications (**P**), is placement of an AC (**I**) after initiation of MV (as compared with not receiving an AC [**C**]) associated with improved 28-day mortality rates (**O**), length of stay, and the number of blood gas measurements per day (supporting/balancing secondary outcomes, intermediate/mechanistic O)?" 
 
 
