@@ -30,3 +30,4 @@ Control
   * Example: in the case of the IAC study, the control group is fairly straightforward: patients receiving  mechanical ventilation (MV) who did not have an IAC placed.
   * an alternative control group could be all ICU patients no receiving an IAC.
   * However, the inclusion of patients not receiving MV results in a control group with lower severity of illness and expected mortality than patients receiving MV, which would bias in favor of not using IACs.
+  * "counterfactual": --> find the counterfactual group
