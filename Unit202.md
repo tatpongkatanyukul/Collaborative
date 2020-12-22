@@ -30,6 +30,8 @@ In general, the comparison group ought to be as large as or larger than the stud
 In select cases, investigators can take advantage of natural experiments in which circumstances external to the EHR readily establish a study cohort and a comparison group.
 These so-called 'instrumental variables' can include practice variations between care units, hospitals, and even geographic regions.
 
+Examples of cohorts - SSRI study: Ghassemi et al., Leveraging a Critical Care Database: Selective Serotonin Reuptake Inhibitor Use Prior to ICU Admission Is Associated With Increased Hospital Mortality, Chest 2014 Apr;145(4).
+
 ## Cohort Definition Rationale
 
 ## Building the Study Cohort
