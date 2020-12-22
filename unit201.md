@@ -73,3 +73,18 @@ Formulating a Research Question
 ## Study Design
 Once the research question has been defined, the next step is to choose the optimal study design given the question and resources available. Broadly, the study design can be classified into Randomized Controlled Trials (RCTs) and observational studies. RCTs exhibit a stronger experimental design, that more easily establishes causality, but they have several practical limitations.
 
+### Observational Studies
+
+#### Types of observational research
+
+#### Problems with observational studies
+
+### Randomized Controlled Trials (RCTs)
+
+#### Randomizedd controlled trials
+
+#### Problems in RCTs
+
+### Data Sources
+
+### Conclusion
