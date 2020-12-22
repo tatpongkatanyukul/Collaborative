@@ -76,6 +76,12 @@ Once the research question has been defined, the next step is to choose the opti
 ### Observational Studies
 
 #### Types of observational research
+Major types of observational research and their purpose
+  * Epidemiological: Define incidence, prevalence, and risk factors for disease
+  * Predictive modeling: Predict future outcomes
+  * Comparative effectiveness: Identify intervention associated with superior outcomes
+  * Pharmacovigilance: Detect rare adverse events occuring in the long-term
+
 
 #### Problems with observational studies
 
