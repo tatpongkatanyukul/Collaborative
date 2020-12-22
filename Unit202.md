@@ -23,6 +23,12 @@ The outcome of interrest should be identified a priori.
 ## Comparison Group
 
 Ideally, the comparison group should be comprised of patients phenotypically similar to those in the study cohort, but who lack the exposure of interest.
+The selected comparison cohort should be at equal risk of developing the study outcome. In observational research, this can be accomplished via propensity score development.
+
+In general, the comparison group ought to be as large as or larger than the study cohort to maximize the power of the study. ... Care must be taken to prevent over-matching.
+
+In select cases, investigators can take advantage of natural experiments in which circumstances external to the EHR readily establish a study cohort and a comparison group.
+These so-called 'instrumental variables' can include practice variations between care units, hospitals, and even geographic regions.
 
 ## Cohort Definition Rationale
 
