@@ -70,5 +70,6 @@ Formulating a Research Question
   * **Construct question using PICO** framework
   * Develop **rejectable hypotheses**
 
-Study Design
+## Study Design
+Once the research question has been defined, the next step is to choose the optimal study design given the question and resources available. Broadly, the study design can be classified into Randomized Controlled Trials (RCTs) and observational studies. RCTs exhibit a stronger experimental design, that more easily establishes causality, but they have several practical limitations.
 
