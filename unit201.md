@@ -111,9 +111,14 @@ Observational studies may be more prone to bias (problems with internal validity
 
 RCTs are the gold standard for establishing causal inference under ideal conditions, because they allow for the unobserved confounding to be controlled for through randomization. This means it is relatively simple to establish causality through the use of an RCT. However, they are not always practical, cost-effective, ethical or even possible for some types of questions.
 
-
-
 #### Problems in RCTs
+
+  * Logistically complex
+  * Risk of harm to participants - if one treatment is less effective than the other, then patients that are assigned to the arm may be harmed.
+  * Ethical concerns - some questions involve too much danger to participants, or potential participants may be unable to give full consent, so the study cannot be run.
+  * Expensive and may take a long time.
+  * Often have a homogeneous population due to stringent inclusion criteria.
+
 
 ### Data Sources
 
