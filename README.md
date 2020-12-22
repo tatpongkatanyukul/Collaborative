@@ -1,4 +1,4 @@
-# Collaborative
+# Collaborative Data Science for Healthcare
 
 Learning Collaborative Data Science for Healthcare on EdX (MITx - HST.953x, started Nov 3rd, 2020)
 
