@@ -86,7 +86,7 @@ Observational study: a generic term for a study where investigators do not assig
   * Cross Sectional: snapshot in time
   * Case-Control: outcome is known (cases) and retrospective evaluation to identify association with past exposures
   * Cohort: exposures are monitored in subjects for the development of outcomes; propecctive vs retrospective
-  * Ecological: exposures and outcomes evaluated on a population level, rather than a patient level; "Ecological fallacy"--- association true on population level but not on an individual level
+  * Ecological: exposures and outcomes evaluated on a population level, rather than a patient level; ["Ecological fallacy"](https://en.wikipedia.org/wiki/Ecological_fallacy)--- association true on population level but not on an individual level
 
 #### Problems with observational studies
 
