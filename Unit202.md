@@ -31,6 +31,7 @@ In select cases, investigators can take advantage of natural experiments in whic
 These so-called 'instrumental variables' can include practice variations between care units, hospitals, and even geographic regions.
 
 Examples of cohorts - SSRI study: Ghassemi et al., Leveraging a Critical Care Database: Selective Serotonin Reuptake Inhibitor Use Prior to ICU Admission Is Associated With Increased Hospital Mortality, Chest 2014 Apr;145(4).
+  * presented cohorts by ***CONSORT diagram*** 
 
 ## Cohort Definition Rationale
 
