@@ -109,6 +109,10 @@ Observational studies may be more prone to bias (problems with internal validity
 
 #### Randomizedd controlled trials
 
+RCTs are the gold standard for establishing causal inference under ideal conditions, because they allow for the unobserved confounding to be controlled for through randomization. This means it is relatively simple to establish causality through the use of an RCT. However, they are not always practical, cost-effective, ethical or even possible for some types of questions.
+
+
+
 #### Problems in RCTs
 
 ### Data Sources
