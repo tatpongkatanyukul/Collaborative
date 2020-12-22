@@ -119,7 +119,9 @@ RCTs are the gold standard for establishing causal inference under ideal conditi
   * Expensive and may take a long time.
   * Often have a homogeneous population due to stringent inclusion criteria.
 
-
 ### Data Sources
+  * Administrative/claims data: tend to provide very large sample sizes but lack granular patient-level data like vital signs, laboratory and microbiology data, timing data or pharmacology data.
+  * Secondary use of clinical trial data and large epidemiologic  studies: these types of databases often have detailed, granular information but researchers are often bound by the scope of data collection from the original research study which limits the questions that may be posed.
+  * Electronic health record (EHR) systems: contain data from a variety of sources such as patient monitors, laboratory systems, and pharmacy systems which can then be translated into de-identified databases for research purposes that contain detailed patient demographics, billing and procedure information, timing data, hospital outcomes data, as well as patient-level granular data and provider notes which can be searched for using natural language processing tools.
 
 ### Conclusion
