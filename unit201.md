@@ -90,6 +90,15 @@ Observational study: a generic term for a study where investigators do not assig
 
 #### Problems with observational studies
 
+Observational studies may be more prone to bias (problems with internal validity) than RCTs due to difficulty obtaining the counterfactual control group whereas RCTs create two alternate 'universe' of patients that will be similar except with regard to the exposure of interest.
+
+1. Bias
+  * Selection Bias: This occurs during the process of selecting exposed and unexposed participants. Example: Survival bias.
+  * Information Bias: Due to mismeasurement or misclassification of certain variables.
+  * Confounding Bias: This occurs when a third variable is correlated with both the exposure and outcome.
+  
+2. Missing Data
+
 ### Randomized Controlled Trials (RCTs)
 
 #### Randomizedd controlled trials
