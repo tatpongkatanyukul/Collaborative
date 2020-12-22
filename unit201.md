@@ -133,6 +133,6 @@ Once the research question is clear, study design becomes the next pivotal step.
 Our clinical scenario gave rise to the question of whether IACs improved the outcomes of patients receiving MV. This translated into the research question:
 > "Among mechanically ventilated adult ICU patients are not receiving vasoactive medications (study sample), is use of an IAC after initiation of MV (exposure) associated with improved 28-day mortality rates (outcome)?"
 
-While an RCT could answer thsi question, it would be logistically complex, costly, and difficult. Using comparative effectiveness techniques, one can pose the question using a granular retrospective database comparing patients who received an IAC to measurably similar patients who did not have an IAC placed.
+While an RCT could answer this question, it would be logistically complex, costly, and difficult. Using comparative effectiveness techniques, one can pose the question using a granular retrospective database comparing patients who received an IAC to measurably similar patients who did not have an IAC placed.
 
 
