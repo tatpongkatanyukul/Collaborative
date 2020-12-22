@@ -101,6 +101,9 @@ Observational studies may be more prone to bias (problems with internal validity
   * Confounding Bias: This occurs when a third variable is correlated with both the exposure and outcome.
   
 2. Missing Data
+  * How do you interpret the gaps when HR is documented every 2 hours?
+  * How do you interpret the gaps when a continuous infusion is documented every 2 hours?
+  * If there's no [blood gas](https://labtestsonline.org/tests/blood-gases) for a patient so I can't get the pH, what does that mean?
 
 ### Randomized Controlled Trials (RCTs)
 
