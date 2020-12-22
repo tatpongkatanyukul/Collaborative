@@ -135,4 +135,8 @@ Our clinical scenario gave rise to the question of whether IACs improved the out
 
 While an RCT could answer this question, it would be logistically complex, costly, and difficult. Using comparative effectiveness techniques, one can pose the question using a granular retrospective database comparing patients who received an IAC to measurably similar patients who did not have an IAC placed.
 
+### Key take aways
+  * Most research questions arise from clinical scenarios in which the proper course of treatment is unclear or unknown.
+  * Defining a research question requires careful consideration of the optimal study, exposure, and outcome in order to answer a clinical question of interest.
+  * While observational research studies can overcome many of the limitations of randomized controlled trials, careful consideration of study design and database selection is needed to address bias and confounding.
 
