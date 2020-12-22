@@ -69,3 +69,6 @@ Formulating a Research Question
     * Are people interested? Am I interested? Is it useful to the world?
   * **Construct question using PICO** framework
   * Develop **rejectable hypotheses**
+
+Study Design
+
