@@ -82,6 +82,11 @@ Major types of observational research and their purpose
   * Comparative effectiveness: Identify intervention associated with superior outcomes
   * Pharmacovigilance: Detect rare adverse events occuring in the long-term
 
+Observational study: a generic term for a study where investigators do not assign treatments.
+  * Cross Sectional: snapshot in time
+  * Case-Control: outcome is known (cases) and retrospective evaluation to identify association with past exposures
+  * Cohort: exposures are monitored in subjects for the development of outcomes; propecctive vs retrospective
+  * Ecological: exposures and outcomes evaluated on a population level, rather than a patient level; "Ecological fallacy"--- association true on population level but not on an individual level
 
 #### Problems with observational studies
 
