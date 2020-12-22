@@ -125,3 +125,14 @@ RCTs are the gold standard for establishing causal inference under ideal conditi
   * Electronic health record (EHR) systems: contain data from a variety of sources such as patient monitors, laboratory systems, and pharmacy systems which can then be translated into de-identified databases for research purposes that contain detailed patient demographics, billing and procedure information, timing data, hospital outcomes data, as well as patient-level granular data and provider notes which can be searched for using natural language processing tools.
 
 ### Conclusion
+
+Fewer than 10% of clinical decisions are supported by high level evidence. Clinical questions arise approximately in every other patient and provide a large cache of research questions. When formulating a research question, investigators must carefully select the appropriate sample of subjects, exposure variable, outcome variable, and confounding variables.
+
+Once the research question is clear, study design becomes the next pivotal step. While RCTs are the gold standard for establishing causal inferene under ideal conditions, they are not always practical, cost-effective, ethical or even possible for some types of questions. Observational research presents an alternative to performing RCTs, but is often limited in casual inference by unmeasured confounding.
+
+Our clinical scenario gave rise to the question of whether IACs improved the outcomes of patients receiving MV. This translated into the research question:
+> "Among mechanically ventilated adult ICU patients are not receiving vasoactive medications (study sample), is use of an IAC after initiation of MV (exposure) associated with improved 28-day mortality rates (outcome)?"
+
+While an RCT could answer thsi question, it would be logistically complex, costly, and difficult. Using comparative effectiveness techniques, one can pose the question using a granular retrospective database comparing patients who received an IAC to measurably similar patients who did not have an IAC placed.
+
+
