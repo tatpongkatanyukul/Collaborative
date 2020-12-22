@@ -95,6 +95,9 @@ Observational studies may be more prone to bias (problems with internal validity
 1. Bias
   * Selection Bias: This occurs during the process of selecting exposed and unexposed participants. Example: Survival bias.
   * Information Bias: Due to mismeasurement or misclassification of certain variables.
+    * How accurate is the recorded?
+      * Lab value (gluclose, white blood cell count, hemoglobin, etc.)
+      * Vital sign (blood pressure, respiratory rate, temperature, heart rate, pain score, etc.)
   * Confounding Bias: This occurs when a third variable is correlated with both the exposure and outcome.
   
 2. Missing Data
