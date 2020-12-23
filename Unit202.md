@@ -38,6 +38,13 @@ Examples of cohorts - SSRI study: Ghassemi et al., Leveraging a Critical Care Da
 
 ## Building the Study Cohort
 
+Isolating specific patient phenotypes for inclusion in the study and comparison cohorts requires a combination of clinical reasoning and data-driven techniques. A close working relationship between clinicians and data scientists is an essential component of cohort selection using EHR data.
+
+According to a 2011 Institute of Medicine Committee Report, only 10–20 % of clinical decisions are evidence-based. **Nearly 50 % of clinical practice guidelines rely on expert opinion rather than experimental data.** In this ‘data desert’ it is the role of the clinician to identify novel research questions important for direct clinical care.
+
+... Phenotype querying of structured and unstructured data can be complex and requires frequent tuning of the search criteria.
+... the research team must consider patient `uniqueness' in that some patients have multiple ICU admissions both during a single hospitalization and over repeat hospital visits. If the same patient is included more than once in a study cohort, the assumption of independent measures is lost.
+
 Next!
 
 
