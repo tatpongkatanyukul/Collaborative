@@ -30,6 +30,8 @@ In general, the comparison group ought to be as large as or larger than the stud
 In select cases, investigators can take advantage of natural experiments in which circumstances external to the EHR readily establish a study cohort and a comparison group.
 These so-called 'instrumental variables' can include practice variations between care units, hospitals, and even geographic regions.
 
+Researchers must pay attention to the necessity to exclude some patients on the grounds of their background medical history or pathological status, such as pregnancy for example. Failing to do so could introduce confounders and corrupt the causal relationship of interest.
+
 
 ## Cohort Definition Rationale
 
