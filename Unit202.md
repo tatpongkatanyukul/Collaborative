@@ -63,7 +63,11 @@ In one example from a published MIMIC-II study, the investigators attempted to d
     * what symptoms (or conditions) can be comorbid of hypomagnesaemia?
   * Potential confounders including [diuretic use](https://en.wikipedia.org/wiki/Diuretic)
 
-See [the Informatics for Integrating Biology and the Bedside (i2b2)](https://www.i2b2.org) for efficient querying
+See [the Informatics for Integrating Biology and the Bedside (i2b2)](https://www.i2b2.org) for efficient querying.
+
+Example: [MIMIC demo](https://physionet.org/content/mimiciii-demo/1.4/)
+
+
 
 Next!
 
