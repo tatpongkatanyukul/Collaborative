@@ -61,6 +61,7 @@ In one example from a published MIMIC-II study, the investigators attempted to d
   * Patients missing comorbidity data (patients excluded)
     * what is comorbidity data? example?
     * what symptoms (or conditions) can be comorbid of hypomagnesaemia?
+  * Potential confounders including [diuretic use](https://en.wikipedia.org/wiki/Diuretic)
 
 Next!
 
