@@ -60,7 +60,7 @@ In one example from a published MIMIC-II study, the investigators attempted to d
   * Patients who did not have a magnesium level within 36-h of ICU admission (patients excluded)
   * Patients missing comorbidity data (patients excluded)
     * what is comorbidity data? example?
-    * what is comorbid of hypomagnesaemia?
+    * what symptoms (or conditions) can be comorbid of hypomagnesaemia?
 
 Next!
 
