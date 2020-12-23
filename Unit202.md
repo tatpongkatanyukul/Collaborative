@@ -49,6 +49,18 @@ According to a 2011 Institute of Medicine Committee Report, only 10–20 % of cl
 ... the research team must consider patient 'uniqueness' in that some patients have multiple ICU admissions both during a single hospitalization and over repeat hospital visits. If the same patient is included more than once in a study cohort, the assumption of independent measures is lost.
   * how to deal with this then?
 
+### Example 1
+
+In one example from a published MIMIC-II study, the investigators attempted to determine whether proton pump inhibitor (PPI) use was associated with hypomagnesaemia in critically-ill patients in the ICU. The exposure of interest in this study was ‘PPI use.’ A comparison group of patients who were exposed to an alternative acid-reducing agent (histamine-2 receptor antagonists) and a comparison group not receiving any acid-reducing medications were identified. The outcome of interest was a low magnesium level. In order to isolate the study cohort in this case, queries had to be developed to identify:
+
+  * First ICU admission for each patient
+  * PPI use as identified through NLP analysis of the ‘Medication’ section of the admission History and Physical
+  * Conditions likely to influence PPI use and/or magnesium levels (e.g. diarrheal illness, end-stage renal disease)
+  * Patients who were transferred from other hospitals as medications received at other hospitals could not be accounted for (patients excluded)
+  * Patients who did not have a magnesium level within 36-h of ICU admission (patients excluded)
+  * Patients missing comorbidity data (patients excluded)
+    * what is comorbidity data? example?
+    * what is comorbid of hypomagnesaemia?
 
 Next!
 
