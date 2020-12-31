@@ -76,6 +76,14 @@ Example: [MIMIC demo](https://physionet.org/content/mimiciii-demo/1.4/)
 
 ## Hidden Exposures
 
+From what I understand, it says:
+sometimes the exposures in that we are intested are not in the database fields that we can easily query.
+We may have to perform NLP operation
+
+Excerpt:
+> ``Performing an NLP search for the term ‘atrial fibrillation with rapid ventricular response’ in provider notes and discharge summaries is feasible, but would not provide the temporal resolution needed with respect to drug administration.''
+
+
 Next!
 
 
