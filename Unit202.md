@@ -89,7 +89,9 @@ Excerpt:
 
 ## Study Cohort Fidelity
 
-> ``In order to guarantee the fidelity of the study cohort, manually reviewing a random subset of selected patients can be helpful. Based on the size of the study cohort, 5–10 % of clinical charts should be reviewed to ensure the presence or absence of the exposure of interest.This task should be accomplished by a clinician. If resources permit, two clinician reviewers can be tasked with this role and their independent results compared using a Kappa statistic.''
+> ``In order to guarantee the fidelity of the study cohort, manually reviewing a random subset of selected patients can be helpful. Based on the size of the study cohort, ***5–10 % of clinical charts should be reviewed to ensure the presence or absence of the exposure of interest***.This task should be accomplished by a clinician. If resources permit, two clinician reviewers can be tasked with this role and ***their independent results compared using a Kappa statistic***.''
+
+> Ultimately, the investigators can use the ‘gold standard’ of manual review to establish a Receiver Operating Characteristic (ROC). ***An area-under the ROC curve of >0.80 indicates ‘good’ accuracy of the algorithm*** and should be used as an absolute minimum of algorithm fidelity. If the area under the ROC curve is <0.80, a combination of data visualization techniques and clinical reasoning should be used to better tune the query algorithm to the exposure of interest.
 
 ## Case Study: Cohort Selection
 
