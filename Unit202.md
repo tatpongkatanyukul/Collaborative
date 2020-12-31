@@ -71,6 +71,9 @@ Example: [MIMIC demo](https://physionet.org/content/mimiciii-demo/1.4/)
 
 [MIMIC Code](https://github.com/MIT-LCP/mimic-code)
 
+[MIMIC Tutorial](https://github.com/MIT-LCP/mimic-code/tree/master/tutorials)
+  * cohort-selection.ipynb
+
 Next!
 
 
