@@ -54,6 +54,9 @@ How can we make reproducibility an integral part of our studies?
       * Another way this can be accomplished that is quickly gaining popularity in the research community are tools like Jupyter Notebook, Sweave and Knitr that allow the interweaving of code and text and so produce clearly documented and reproducible studies.
       * Version control systems, like Git, also help to create more reproducible studies. Git can track the changes made to the code used in the study over time by contributor, this way the development process becomes more transparent and the logs can be used to more easily find and fix bugs in the code.
 
+## Relational Databases
+
+Relational databases can be thought of as a collection of tables which are linked together by shared keys. Organizing data across tables can help to utilize storage more efficiently, maintain data integrity and enable faster analysis.
    
 ---
 
