@@ -85,10 +85,11 @@ Excerpt:
 
 ## Case Study: Arterial Line Study Cohort Definition
 
+## Data Visualization
+
 Next!
 
 
-## Data Visualization
 
 ## Study Cohort Fidelity
 
