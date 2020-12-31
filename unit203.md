@@ -79,7 +79,27 @@ A few of the simplest and essential commands in SQL are as follows:
   * GROUP BY [would you like to aggregate the data? note that if you choose to aggregate the data you will need to make sure that you apply proper statements to variables in your select statement]
   * HAVING [this is essentially the same as where after you've used a GROUP BY statement, one use case could be looking for patients that stayed for multiple visits after you aggregate the number of hospital admissions a patient has recorded in the admissions table]
   * ORDER BY [this is to arrange your data according to a certain column, say from greatest to least or alphabetically. By default the ordering is done in ascending order, so you can add the word DESC after the variable(s) listed]. 
-  * 
+  * join commands
+    * INNER JOIN
+    * LEFT JOIN
+    * RIGHT JOIN
+    * FULL OUTER JOIN
+
+## Conclusion
+
+  * Not all medical data found in a database has the same characteristics even if it represents the same concept. Pay close attention to the data you are extracting and it's original purpose. Remember that both the type of data and the place where it comes from introduces its own bias to your study. Take precautions accordingly and analyze your results with that knowledge.
+  * Collaborating with professionals of different areas of science than our own can be daunting. The language of both sides may be difficult to understand and the needs and expectations of each may not always align. Take time to understand the nuances of the language of every area involved. You do not need to be an expert in all areas but you do need to know how to understand each other and how to manage expectations.
+  * No matter what results you obtain in your study, they are as good as nothing if they cannot be reproduced by other groups. Please take steps so that your studies can always be reproduced. Never directly edit the raw data, all modifications should be made through coding. Provide both the raw data as well as all code needed to achieve your processed data status, this way other groups may arrive at the same state you did and may also analyze your path there and provide constructive criticism when necessary.  
+    
 ---
 
 # Unit 2.04
+
+## Introduction
+
+The general steps taken to pre-process data are:
+  * Data "cleaning" - This step deals with missing data, noise, outliers, and duplicate or incorrect records while minimizing the introduction of bias into the database.
+  * "Data integration" - Extracted raw data can come from heterogeneous sources or be in separate datasets. This step reorganizes the various raw datasets into a single dataset that contains all the information required for the desired statistical analyses.
+  * "Data transformation" - This step translates and/or scales variables stored in a variety of formats or units in the raw data into formats or units that are more useful for the statistical methods that the researcher wants to use.
+  * "Data reduction" - After the dataset has been integrated and transformed, this step removes redundant records and variables, as well as reorganizes the data in an efficient and "tidy" manner for analysis.
+  
