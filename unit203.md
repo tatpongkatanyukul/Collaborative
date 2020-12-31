@@ -72,6 +72,14 @@ Extracting data from a database is known as “querying” the database.
 
 [SQL teaching](https://www.sqlteaching.com/)
 
+A few of the simplest and essential commands in SQL are as follows:
+  * SELECT [what do you want returned, list columns here separated by commas. writing ```'SELECT *'``` will return all columns available in the table]
+  * FROM [what is the name of the table where you want the data to come from]
+  * WHERE [are there any restrictions in the data you want returned? e.g. before a certain time or that meet certain criteria]
+  * GROUP BY [would you like to aggregate the data? note that if you choose to aggregate the data you will need to make sure that you apply proper statements to variables in your select statement]
+  * HAVING [this is essentially the same as where after you've used a GROUP BY statement, one use case could be looking for patients that stayed for multiple visits after you aggregate the number of hospital admissions a patient has recorded in the admissions table]
+  * ORDER BY [this is to arrange your data according to a certain column, say from greatest to least or alphabetically. By default the ordering is done in ascending order, so you can add the word DESC after the variable(s) listed]. 
+  * 
 ---
 
 # Unit 2.04
