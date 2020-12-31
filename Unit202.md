@@ -99,4 +99,8 @@ Excerpt:
 
 > The authors elected to focus their study on patients requiring mechanical ventilation that did not require vasopressors and were not admitted for sepsis. In patients requiring mechanical ventilation, the dual role of IACs to allow for beat-to-beat blood pressure monitoring and to simplify arterial blood gas collection is thought to be particularly important. Patients with vasopressor requirements and/or sepsis were excluded as invasive arterial catheters are needed in this population to assist with the rapid titration of vasoactive agents. In addition, it would be difficult to identify enough patients requiring vasopressors or admitted for sepsis, who did not receive an IAC.
 
+:
+
+> there were 984 patients in the group who received an IAC and 792 patients who did not. ***These groups were compared using propensity matching techniques.*** 
+
 ## Conclusion
