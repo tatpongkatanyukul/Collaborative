@@ -104,3 +104,6 @@ Excerpt:
 > there were 984 patients in the group who received an IAC and 792 patients who did not. ***These groups were compared using propensity matching techniques.*** 
 
 ## Conclusion
+  * Take time to characterize the exposure and outcomes of interest pre-hoc.
+  * Utilize both structured and unstructured data to isolate your exposure and outcome of interest. NLP can be particularly helpful in analyzing unstructured data.
+  * Data visualization can be very helpful in facilitating communication amongst team members
