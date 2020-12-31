@@ -57,7 +57,15 @@ How can we make reproducibility an integral part of our studies?
 ## Relational Databases
 
 Relational databases can be thought of as a collection of tables which are linked together by shared keys. Organizing data across tables can help to utilize storage more efficiently, maintain data integrity and enable faster analysis.
-   
+
+The model that defines the structure and relationships of the tables is known as a "database schema".
+
+tables will be linked through primary and foreign keys. 
+
+Extracting data from a database is known as “querying” the database.
+
+![ER Diagram](https://github.com/tatpongkatanyukul/Collaborative/blob/main/relationalDB.png)
+
 ---
 
 # Unit 2.04
