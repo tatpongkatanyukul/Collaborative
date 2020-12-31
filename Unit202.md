@@ -74,11 +74,13 @@ Example: [MIMIC demo](https://physionet.org/content/mimiciii-demo/1.4/)
 [MIMIC Tutorial](https://github.com/MIT-LCP/mimic-code/tree/master/tutorials)
   * cohort-selection.ipynb
 
+## Hidden Exposures
+
 Next!
 
 
 
-## Hidden Exposures
+
 
 ## Case Study: Arterial Line Study Cohort Definition
 
