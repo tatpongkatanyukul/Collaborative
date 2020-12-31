@@ -83,14 +83,10 @@ We may have to perform NLP operation
 Excerpt:
 > ``Performing an NLP search for the term ‘atrial fibrillation with rapid ventricular response’ in provider notes and discharge summaries is feasible, but would not provide the temporal resolution needed with respect to drug administration.''
 
+## Case Study: Arterial Line Study Cohort Definition
 
 Next!
 
-
-
-
-
-## Case Study: Arterial Line Study Cohort Definition
 
 ## Data Visualization
 
