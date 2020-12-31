@@ -87,11 +87,9 @@ Excerpt:
 
 ## Data Visualization
 
-Next!
-
-
-
 ## Study Cohort Fidelity
+
+> ``In order to guarantee the fidelity of the study cohort, manually reviewing a random subset of selected patients can be helpful. Based on the size of the study cohort, 5–10 % of clinical charts should be reviewed to ensure the presence or absence of the exposure of interest.''
 
 ## Case Study: Cohort Selection
 
