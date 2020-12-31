@@ -67,7 +67,9 @@ See [the Informatics for Integrating Biology and the Bedside (i2b2)](https://www
 
 Example: [MIMIC demo](https://physionet.org/content/mimiciii-demo/1.4/)
 
+### Example 2
 
+[MIMIC Code](https://github.com/MIT-LCP/mimic-code)
 
 Next!
 
