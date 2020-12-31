@@ -66,6 +66,12 @@ Extracting data from a database is known as “querying” the database.
 
 ![ER Diagram](https://github.com/tatpongkatanyukul/Collaborative/blob/main/relationalDB.png)
 
+## MIMIC-III Structure
+
+## SQL Basics
+
+[SQL teaching](https://www.sqlteaching.com/)
+
 ---
 
 # Unit 2.04
