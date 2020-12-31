@@ -25,6 +25,35 @@ The topics tackled in this section are applicable to all data science but are pa
    * Although these records mean the medication was ordered, they do not guarantee that the patient took the medication.
    * This data is usually input by hospital staff, so errors and missing data are possible. The timestamp associated with each entry may refer to the time the doctor ordered the medication or to the time when the drug was administered.
 
+## Collaborations and Data Source Bias
+
+> One of the greatest challenges of working with medical data is understanding the context in which the data is collected. Collaboration between hospital staff and research analysts is crucial to success. However, it can be easy for members of either group to misunderstand one another or to have different expectations of how the dataset can be used. 
+
+### Biases
+
+In a hospital setting, these biases may be tied to factors such as the patient populations served, the local practices of caregivers, or to the type of services provided. For example:
+  * Academic centers often see more complicated patients, and some hospitals may tend to serve patients of a specific ethnic background or socioeconomic status
+  * Follow-up visits may be less common at referral centers, so they may be less likely to detect long-term complications
+  * Research centers may be more likely to place patients on experimental drugs not generally used in practice
+  
+> Although there is very little that can be done to completely eliminate biases from your data, it is important to be aware of the possible sources of bias to mitigate them and to correctly interpret the final results of your study. 
+
+## Reproducibility
+
+> There is currently a reproducibility crisis in the scientific community: some researchers are unable to replicate peer-reviewed papers.
+
+> Several factors can be identified as the origin for this issue including the emphasis on the results of research over the methodology utilized or the 'publish or perish' culture that researchers are subject to.
+
+***It is the responsibility of the researcher to make sure their studies are as reproducible as possible.***
+
+How can we make reproducibility an integral part of our studies?
+  * the data source and code should be accessible to anyone trying to reproduce our work, ideally as part of a publication.
+  * you should never modify source data. Editing the raw data destroys the chain of reproducibility. Instead all changes should be made through code, this way all steps that the study took to process the data can be reproduced.
+    * All code and data should be well documented and the terms of reuse should be clear.
+      * Usually researchers provide a plain text "README" file that provides an introduction to the analysis package as well as a "LICENSE" file with the terms of reuse.
+      * Another way this can be accomplished that is quickly gaining popularity in the research community are tools like Jupyter Notebook, Sweave and Knitr that allow the interweaving of code and text and so produce clearly documented and reproducible studies.
+      * Version control systems, like Git, also help to create more reproducible studies. Git can track the changes made to the code used in the study over time by contributor, this way the development process becomes more transparent and the logs can be used to more easily find and fix bugs in the code.
+
    
 ---
 
