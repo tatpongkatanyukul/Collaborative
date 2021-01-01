@@ -143,3 +143,18 @@ Data scientist should fix this (making it not an outlier), because if we have sa
 Inconsistent data in EHR can be due to:
   * variation in how different staff and clinicians enter data - there may be thousands of staff in a single hospital.
   * multiple automated interfaces with the EHR, everything from telemetry monitors to the hospital laboratory.
+
+## Data Integration and Transformation
+
+Data integration is the process of combining data derived from various data sources (eg. such as databases) into a consistent dataset. There are a number of issues to consider during data integration related mostly to possible different standards among data sources. For example, certain variables can be referred to by means of different IDs in two or more sources.
+
+### Data Transformation
+
+The aim of data normalization is to transform the data values into a format, scale, or unit that is more suitable for subsequent statistical analysis.
+
+A few common possible approaches to normalize the data:
+  * Normalization - data for a numerical variable is scaled in order to range between a specified set of values, such as 0-1.
+  * Aggregation - two or more values of the same attribute are aggregated into one value.
+  * Generalization - similar to aggregation, in this case, low-level attributes are transformed into higher-level ones. For example, in the analysis of chronic kidney disease (CKD) patients, instead of using a continuous numerical variable like the patient's creatinine levels, one could use a variable for CKD stages as defined by accepted guidelines.
+  
+  
