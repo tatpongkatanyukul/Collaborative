@@ -173,7 +173,10 @@ Lastly, as part of more effective organization of datasets, one would also aim t
 Data pre-processing is an important step in preparing raw data for statistical analysis. Several distinct steps are involved in pre-processing raw data as described in this chapter: cleaning, integration, transformation, and reduction. 
 ... The objective of all the steps is to arrive at a "clean" and "tidy" dataset suitable for effective statistical analyses while avoiding the inadvertent introduction of bias into the data.
 
+### Exercise
 See [GitHub](https://github.com/criticaldata/hst953-edx/tree/master/2.04.%20Data%20Preprocessing)
+
+#### Merge
 
 ```{r message=FALSE, warning=FALSE}
 work_dir <- "C:/Users/marta/Desktop/MIMIC_data_files" # here your directory
@@ -183,3 +186,80 @@ icu <- read.csv(file="icustays.csv", header=TRUE, sep =",")
 icu_adm  <- merge(adm, icu, by = c("SUBJECT_ID", "HADM_ID"))
 head(icu_adm, n =3L)
 ```
+
+#### Data transformation
+
+##### do postgres sql: ```elixhauser_ahrq_v37.sql```
+
+##### run R
+```{r message=FALSE, warning=FALSE}
+work_dir <- "C:/Users/marta/Desktop/MIMIC_data_files"
+setwd(work_dir)
+Elixhauser<- read.csv(file="Elixhauser.csv", header=TRUE, sep =",")
+str(Elixhauser)
+```
+
+```{r message=FALSE, warning=FALSE}
+scores <- cbind(Elixhauser, rep(0, nrow(Elixhauser)))
+colnames(scores)[ncol(scores)] <- "Elixhauser_overall"
+str(scores)
+```
+
+#### Aggregation step
+
+Aim: To sum up the values of all the Elixhauser comorbidities across each row. 
+
+```{r message=FALSE, warning=FALSE}
+scores$Elixhauser_overall <- rowSums( scores[,3:32])
+```
+Let's take a look at the head of the resulting first and last column:
+
+```{r message=FALSE, warning=FALSE}
+head(scores[, c(1,33)])
+```
+
+#### Normalization Step
+
+Aim: To scale values in column Elixhauser_overall between 0 and 1, i.e. in [0, 1]. Function max() finds the maximum value in column *Elixhauser_overall*. Then we re-assign each entry in column *Elixhauser_overall* as a proportion of the max_score to normalize/scale the column.
+
+
+```{r message=FALSE, warning=FALSE}
+max_score <- max(scores$Elixhauser_overall)
+scores$Elixhauser_overall <- scores$Elixhauser_overall/max_score
+```
+
+We subset and remove all the columns in Elixhauser, except for *subject_id*, *hadm_id* and *Elixhauser_overall*:
+
+```{r message=FALSE, warning=FALSE}
+scores <- scores[,c(1,2,33)]
+```
+
+#### Generalization Step
+
+Aim: Consider only the group of patients sicker than the average Elixhauser score. The function which() returns the row numbers (indices) of all true entries of the logical condition set on scores inside the round() brackets, where the condition being the column entry for *Elixhauser_overall* >= 0.5. We store the row indices information in the vector, 'sicker'. Then we can use 'sicker' to subset scores and only select rows/patients who are 'sicker' and store this information in *'scores_sicker'*.
+
+```{r message=FALSE, warning=FALSE}
+sicker <- which(scores$Elixhauser_overall>=0.5)
+score_sicker <- scores[sicker,]
+  
+head(score_sicker)
+```
+
+Save the results to file: we can use e.g. write, table() and write.csv(). We give an example here:
+
+```{r message=FALSE, warning=FALSE}
+work_dir <- "C:/Users/marta/Desktop/MIMIC_data_files"
+setwd(work_dir)
+write.table(score_sicker, file = 'score_sicker.csv', sep =",")
+```
+
+#### Data Reduction
+
+Aim: To reduce or reshape the input data by means of a more effective representation of the dataset without compromising the integrity of the original data. One element of data reduction is eliminating redundant records while preserving needed data, which we will demonstrate in Part 1. The other element involves reshaping the dataset into a "tidy" format, which we will demonstrate in Part 2.
+
+##### Part 1: Eliminating Redundant Records
+
+To demonstrate this with an example, we will look at multiple records of glucose laboratory values for each patient. We will use the records from the following SQL query, which we exported as "labs_glucose.csv". The SQL query selects all the non-null measurements of glucose values for all the patients in the MIMIC database.
+
+
+... See [GitHub Data Pre-Processing](https://github.com/criticaldata/hst953-edx/blob/master/2.04.%20Data%20Preprocessing/DataPreprocessing.rmd) for the rest of the exercises
