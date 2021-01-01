@@ -157,4 +157,21 @@ A few common possible approaches to normalize the data:
   * Aggregation - two or more values of the same attribute are aggregated into one value.
   * Generalization - similar to aggregation, in this case, low-level attributes are transformed into higher-level ones. For example, in the analysis of chronic kidney disease (CKD) patients, instead of using a continuous numerical variable like the patient's creatinine levels, one could use a variable for CKD stages as defined by accepted guidelines.
   
-  
+## Data Reduction
+
+The final step of data pre-processing is data reduction, i.e., the process of reducing the input data by means of a more effective representation of the dataset without compromising the integrity of the original data. The objective of this step is to provide a version of the dataset on which the subsequent statistical analysis will be more effective.
+
+An example of data reduction would be in the case of using blood pressure as a variable in analysis. An ICU patient will generally have their systolic and diastolic blood pressure monitored continuously. This results in hundreds of data points for each of possibly thousands of study patients. Depending on the study aims, it may be necessary to calculate a new variable such as average mean arterial pressure (MAP) during the first day of ICU admission.
+
+Lastly, as part of more effective organization of datasets, one would also aim to reshape the columns and rows of a dataset so that it conforms with the following 3 rules of a "tidy" dataset:
+  * Each variable forms a column.
+  * Each observation forms a row.
+  * Each value has its own cell.
+
+## Conclusion
+
+Data pre-processing is an important step in preparing raw data for statistical analysis. Several distinct steps are involved in pre-processing raw data as described in this chapter: cleaning, integration, transformation, and reduction. 
+... The objective of all the steps is to arrive at a "clean" and "tidy" dataset suitable for effective statistical analyses while avoiding the inadvertent introduction of bias into the data.
+
+See [GitHub](https://github.com/criticaldata/hst953-edx/tree/master/2.04.%20Data%20Preprocessing)
+
