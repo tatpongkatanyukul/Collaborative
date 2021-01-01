@@ -113,3 +113,33 @@ Possible ways to deal with missing data:
   * Ignore the record. This method is effective at removing missing data, but it comes with two problems. Firstly it can lead to low sample sizes if a large proportion of the data has missing values. Secondly, if the missing values are correlated with a feature, then removing entries can bias the dataset.
   * Determine and fill in the missing value manually. This approach is the most accurate but it is also time-consuming and often is not feasible in a large dataset with many missing values.
   * Use an expected value. The missing values can be filled in with predicted values (e.g. using the mean of the available data or some prediction method). It must be underlined that this approach may introduce bias in the data, as the inserted values may be wrong. This method is also useful for comparing and checking the validity of results obtained by ignoring missing records.
+
+## Frequency of Data Acquisition
+
+How often data is collected, e.g., every 5 min, hourly.
+
+Use visualization # samples/frequency of data acquisition to decide how frequent we want to choose.
+If we choose too high frequency, we may end up with a lot of missing data.
+
+## Noisy and Inconsistent Data
+
+Noisy data can be due to:
+  * Faults or technological limitations of instruments during data gathering
+  * Human error in data entry
+  
+Possible ways to deal with noisy data are to exclude outliers through:
+  * Binning methods - Binning methods smooth a sorted data value by considering their "neighborhood", or values around it
+  * Clustering - Outliers may be detected by clustering, that is by grouping a set of values in such a way that the ones in the same group (i.e., in the same cluster) are more similar to each other than to those in other groups
+  * Machine learning - One of the classical methods of machine learning is regression analysis, where data are fitted to a specified (often linear) function
+  * Visualization - Outliers can be assessed directly by plotting the distribution of variables, eg. in a box plot
+  
+Boxplot edges: upper and lower fences
+
+Example of SpO2 100% is shown of an outlier, because it takes samples from just one patient.
+Data scientist should fix this (making it not an outlier), because if we have samples from 100 patients, SpO2 (blood oxygen) is good. It's not an outlier.
+
+> We can observe that pulse oximetry (SpO2) values range from 60% to 100%. The value of 60% is an abnormal value and indicates that the patient is in a critical condition at that time.
+
+Inconsistent data in EHR can be due to:
+  * variation in how different staff and clinicians enter data - there may be thousands of staff in a single hospital.
+  * multiple automated interfaces with the EHR, everything from telemetry monitors to the hospital laboratory.
