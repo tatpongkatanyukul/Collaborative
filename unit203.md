@@ -103,3 +103,13 @@ The general steps taken to pre-process data are:
   * "Data transformation" - This step translates and/or scales variables stored in a variety of formats or units in the raw data into formats or units that are more useful for the statistical methods that the researcher wants to use.
   * "Data reduction" - After the dataset has been integrated and transformed, this step removes redundant records and variables, as well as reorganizes the data in an efficient and "tidy" manner for analysis.
   
+## Real World Data
+
+Real-world data is usually "messy" in the sense that they can be incomplete (e.g. missing data), they can be noisy (e.g. random error or outlier values that deviate from the expected baseline), and they can be inconsistent (e.g. patient age and admission service in neonatal intensive care unit).
+
+## Missing Data
+
+Possible ways to deal with missing data:
+  * Ignore the record. This method is effective at removing missing data, but it comes with two problems. Firstly it can lead to low sample sizes if a large proportion of the data has missing values. Secondly, if the missing values are correlated with a feature, then removing entries can bias the dataset.
+  * Determine and fill in the missing value manually. This approach is the most accurate but it is also time-consuming and often is not feasible in a large dataset with many missing values.
+  * Use an expected value. The missing values can be filled in with predicted values (e.g. using the mean of the available data or some prediction method). It must be underlined that this approach may introduce bias in the data, as the inserted values may be wrong. This method is also useful for comparing and checking the validity of results obtained by ignoring missing records.
