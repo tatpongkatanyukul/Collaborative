@@ -7,4 +7,6 @@ Types of Missingness
   * The value is missing because it is not applicable to the instance. For example, we don't have ventilator information for a patient that was taken off the ventilator, and so these records are left empty in the database.
   * The value is missing because it is of no interest to the instance. For example, we didn't measure something about a patient because it is not relevant to their current condition. 
   
+## Missing Data Definition
   
+See [GitHub Unit 2.05](https://github.com/criticaldata/hst953-edx/blob/master/2.05%20Missing%20Data/Missing%20Data.Rmd) for hands-on exercises
