@@ -175,3 +175,11 @@ Data pre-processing is an important step in preparing raw data for statistical a
 
 See [GitHub](https://github.com/criticaldata/hst953-edx/tree/master/2.04.%20Data%20Preprocessing)
 
+```{r message=FALSE, warning=FALSE}
+work_dir <- "C:/Users/marta/Desktop/MIMIC_data_files" # here your directory
+setwd(work_dir)
+adm <- read.csv(file="admissions.csv", header=TRUE, sep =",")
+icu <- read.csv(file="icustays.csv", header=TRUE, sep =",")
+icu_adm  <- merge(adm, icu, by = c("SUBJECT_ID", "HADM_ID"))
+head(icu_adm, n =3L)
+```
