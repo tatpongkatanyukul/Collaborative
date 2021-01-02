@@ -56,4 +56,18 @@ where where t is the estimated multivariate location, which is usually the arith
 Multivariate outliers can be simply defined as observations having a large squared Mahalanobis distance. In this work, the squared Mahalanobis distance is compared with quantiles of the F-distribution with p and p − 1 degrees of freedom. Critical values are calculated using Bonferroni bounds.  
   
   
-  
+## Outlier Analysis Using Expert Knowledge
+
+In univariate analyses, expert knowledge can be used to define thresholds of values that are normal, critical (life-threatening) or impossible because they fall outside permissible ranges or have no physical meaning.
+
+## Univariate Analysis (1)
+
+![different outlier detections](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Selection_067.png)
+
+As shown in the picture, overall Tukey’s and log-IQ are the most conservative methods, i.e., they identify the smallest number of points as outliers, whereas IQ identifies more outliers than any other method. With a few exceptions, the modified z-score identifies more outliers than the z-score.
+
+The results in bold highlight the variable with the most outliers in each method, and also the method that removes more patients in total, in each class. Class 0: represents survivors, Class 1: non-survivors
+
+A preliminary investigation of results showed that values falling within reference normal ranges (see Table 2.06.1) are never identified as outliers, whatever the method. On the other hand, critical values are often identified as such. Additional remarks can be made as in general (1) more outliers are identified in the variable BUN than in any other and (2) the ratio of number of outliers and total number of patients is smaller in the class 1 cohorts (non-survivors). As expected, for variables that approximate more to lognormal distribution than to a normal distribution, such as potassium, BUN and PCO2, the IQ method applied to the logarithmic transformation of data (log-IQ method) identifies less outliers than the IQ applied to the real data. Consider for instance the variable BUN, which follows approximately a lognormal distribution. 
+
+
