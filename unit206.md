@@ -32,8 +32,10 @@ The simplest form of outlier detection is extreme value analysis of unidimension
 ## Statistical Methods
 
 In the field of statistics, the data is assumed to follow a distribution model (e.g., normal distribution) and an instance is considered an outlier if it deviates significantly from the model. Common statistical methods for outlier detection are listed below:
-
+  * clinical ranges
+  * experience
   * Tukey’s Method - Inner "fences" are located at a distance of 1.5 IQR below Q1 and above Q3, and outer fences at a distance of 3 IQR below Q1 and above Q3. A value between the inner and outer fences is a possible outlier, whereas a value falling outside the outer fences is a probable outlier.
+    * IQR = Q3 - Q1
   * Z-Score -  The Z-value test computes the number of standard deviations by which the data varies from the mean. ... a good “rule of thumb” is to consider values with |z_i| >= 3 as outliers, where z_i is a z value of the datapoint x_i. 
     * Of note, this method is of limited value for small datasets, since the maximum z-score is at most (n-1)/sqrt(n).
   * Modified Z-Score - The estimators used in the z-score, the sample mean and sample standard deviation, can be affected by the extreme values present in the data. To avoid this problem, the modified z-score uses the median and the median absolute deviation (MAD) instead of the mean and standard deviation of the sample:
