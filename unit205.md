@@ -96,3 +96,13 @@ In this method, the "k" nearest observations to the missing observation are iden
 
 ## Choosing the Best Method
 
+  * 1. Use a sample of your own dataset that does not contain any missing data (will serve as ground truth).
+  * 2. Introduce increasing proportions of missing data at random (e.g. 5-50 % in 5 % increments).
+  * 3. Reconstruct the missing data using the various methods.
+  * 4. Compute the sum of squared errors between the reconstructed and the original data, for each method and each proportion of missing data.
+  * 5. Repeat steps 1-4 a number of times (10 times for example) and compute the average performance of each method (average sum of squared errors (SSE)).
+  * 6. Plot the average SSE versus proportion of missing data (1 plot per imputation method), similarly to the example shown in Fig. 1.
+  * 7. Choose the method that performs best at the level of missing data in your dataset. E.g. if your data had 10 % of missing data, you would want to pick k-NN; at 40 % linear regression performs better (made-up data, for illustrative purpose only).
+
+![Choose the Best Imputation]
+
