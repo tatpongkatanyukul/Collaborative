@@ -104,5 +104,5 @@ In this method, the "k" nearest observations to the missing observation are iden
   * 6. Plot the average SSE versus proportion of missing data (1 plot per imputation method), similarly to the example shown in Fig. 1.
   * 7. Choose the method that performs best at the level of missing data in your dataset. E.g. if your data had 10 % of missing data, you would want to pick k-NN; at 40 % linear regression performs better (made-up data, for illustrative purpose only).
 
-![Choose the Best Imputation]
+![Choose the Best Imputation](https://github.com/tatpongkatanyukul/Collaborative/blob/main/ChoiceMethod.jpg)
 
