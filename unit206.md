@@ -43,6 +43,15 @@ It is recommended that |M_i| >= 3.5 considered as potential outliers.
 
   * Interquartile Range with Log-Normal Distribution: If a variable follows a log-normal distribution then the logarithms of the observations follow a normal distribution. A reasonable approach then is to apply the natural log ```ln``` to the original data and then apply the tests intended to the "normalized" distributions. We refer to this method as the log-IQ.
 
+  * Ordinary and Studentized Residuals: Studentized residuals eliminate the units of measurement by dividing the residuals by an estimate of their standard deviation. One limitation of this approach is that it assumes the regression model is correctly specified.
+  * Cook's Distance -  In a linear regression model, Cook's distance is used to estimate the influence of a data point on the regression. The principle of Cook’s distance is to measure the effect of deleting a given observation. Data points with a large distance may represent outliers. For the i^th point in the sample, Cook's distance is defined as:
+D_i = sum_{j=1}^n (y_i y_j(i))^2/((k+1) s^2).
 
+  * Mahalanobis Distance - This test is based on Wilks method designed to detect a single outlier from a normal multivariable sample. It approaches the maximum squared Mahalanobis Distance (MD) to an F-distribution function formulation, which is often more appropriate than a chi2 distribution. For a p-dimensional multivariate sample  (i = 1,…,n), the Mahalanobis distance of the i^th case is defined as:
+  MD_i = \sqrt{x_i - t}^T C^{-1} (x_i - t)}
+where where t is the estimated multivariate location, which is usually the arithmetic mean, and C is the estimated covariance matrix, usually the sample covariance matrix.
+
+Multivariate outliers can be simply defined as observations having a large squared Mahalanobis distance. In this work, the squared Mahalanobis distance is compared with quantiles of the F-distribution with p and p − 1 degrees of freedom. Critical values are calculated using Bonferroni bounds.  
+  
   
   
