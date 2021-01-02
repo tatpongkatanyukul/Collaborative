@@ -1,6 +1,6 @@
 # Collaborative Data Science for Healthcare
 
-Learning Collaborative Data Science for Healthcare on EdX (MITx - HST.953x, started Nov 3rd, 2020)
+Learning Collaborative Data Science for Healthcare on EdX (MITx - HST.953x, started Nov 3rd, 2020; End Jan 25th, 2021)
 
 ## Free course e-books
 * kku.world/2b887
