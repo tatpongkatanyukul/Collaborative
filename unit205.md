@@ -75,3 +75,24 @@ Here, we are trying to generate singular replacements for empty cells in our tab
     * AKA "sample and hold," this method works well with longitudinal designs. You impute the missing value based on the last available observation of an individual (ie. you do not have the patient's weight for today, but you do from a month ago, so you use that value). This method makes the assumption that the individual has not changed since their last observation, which is often untrue.
 
 [Hands-on Unit 2.05](https://github.com/criticaldata/hst953-edx/blob/master/2.05%20Missing%20Data/Missing%20Data.Rmd)
+
+## Handling Missing Data: Model-Based Imputation
+
+For model-based imputation, a predictive model is generated to more dynamically estimate values for substitution into the data.  We separate our data into those with complete and those with incomplete cases within any given category, generating a predictive model from the complete target variable data versus the other variables at hand. This model is then used to estimate the missing data for all the different categories.
+
+A number of methods can be used, many of which you have probably heard of before: regression, logistic regression, neural networks, and other parametric/non-parametric modeling techniques. The downside is that the mathematical relationship estimated by the model will be "better behaved" than actual data, and will behave poorly if there is no relationship between the target variable and other surrounding variables (ie. if you use a person's shirt color to predict their shoe size, you'll find your model works poorly). 
+
+### Stochastic Regression
+
+Stochastic regression reduces bias by adding an additional step: augmenting each predicted score with a residual term. This term is normally distributed with a mean of zero and a variance equal to the residual variance found in the predictor and aims to maintain the underlying variability found within the dataset, reducing the amount of bias added. Nonetheless, the standard error tends to still be underestimated, because uncertainty in imputed values is not included. This can increase the risk of type I error in your model.
+
+### Multiple-Value Imputation
+
+Multiple imputation is a Monte Carlo technique developed by Rubin in the 1970s for specifically analyzing datasets with missing data. 
+
+### K-Nearest Neighbors
+
+In this method, the "k" nearest observations to the missing observation are identified, and then the mean of this cluster is used to fill in the missing value. Evaluating the similarity of any two observations may be the tricky part, but after normalizing the dataset, a Euclidean, Manhattan, Mahalanobis, Pearson, or other distance function can be applied across the dataset to identify those data-complete observations most similar to the observation with missing data. With enough data, this may produce the most accurate estimation of the data that is missing, operating both on a qualitative or quantitative level, while maintaining the underlying correlation structure in the data. The choice of k-value is critical to the method's success and utility: higher values of k include observations increasingly different from the missing data value, which may include significantly different observations, while low values of k may leave out significant or even critical attributes that ideally will be captured. Finding a good medium can be a key challenge. 
+
+## Choosing the Best Method
+
