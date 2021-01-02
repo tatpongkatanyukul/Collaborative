@@ -57,3 +57,21 @@ Only the data needed for the specific analysis at hand are deleted, as opposed t
 
 ## Handling Missing Data: Weighting-Case Analysis
   
+Weighting models the degree of missingness to reduce bias introduced in deleting missing data, essentially calculating replacements for the missing values. This process is called imputation. Functionally speaking, you are building a model of your data and then using that model -- whatever it looks like -- to estimate what is missing. 
+
+### Single-Value Imputation
+
+Here, we are trying to generate singular replacements for empty cells in our table, and through the various methods, we may generate different kinds of predicted values for the missing data at hand.
+
+  * Mean and Median
+    * Median would be the best approach if your data contains a significant amount of outliers, as the mean may be more skewed by these.
+    * The downsides, however, are that this reduces natural variability within your data and lowers the accuracy of your error estimates, while also disregarding any natural relationship between variables and reducing intervariable correlation within your data. This introduces its own set of biases.
+  * Linear Interpolation
+    * This method is great for time series. You interpolate the values of the previous and next measurements of the patient and then fill in the data as needed.
+  * Hot Deck and Cold Deck
+    * With Hot Deck, you replace missing values with values from an estimated distribution of your current dataset -- this is used in survey research. You first partition the data into clusters, then associate the missing data with each cluster, utilizing each cluster to fill in the missing value (this could involve using the mean, median, or mode within the associated clusters).
+    * Cold deck imputation is similar, but the data source is different. A hot deck tries to preserve the distribution of your variable distribution but may underestimate standard error and variability.
+  * Last Observation Carried Forward
+    * AKA "sample and hold," this method works well with longitudinal designs. You impute the missing value based on the last available observation of an individual (ie. you do not have the patient's weight for today, but you do from a month ago, so you use that value). This method makes the assumption that the individual has not changed since their last observation, which is often untrue.
+
+[Hands-on Unit 2.05](https://github.com/criticaldata/hst953-edx/blob/master/2.05%20Missing%20Data/Missing%20Data.Rmd)
