@@ -28,3 +28,21 @@ Outlier identification methods can be classified into supervised and unsupervise
 The simplest form of outlier detection is extreme value analysis of unidimensional data. In this case, the core principle of discovering outliers is to determine the statistical tails of the underlying distribution and assume that either too large or too small values are outliers. In order to apply this type of technique to a multidimensional dataset, the analysis is performed one dimension at a time. In such a multivariable analysis, outliers are samples which have unusual combinations with other samples in the multidimensional space. It is possible to have outliers with reasonable marginal values (i.e. the value appears normal when confining oneself to one dimension), but due to linear or non-linear combinations of multiple attributes these observations unveil unusual patterns in regards to the rest of the population under study.
 
 ![outliers](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Selection_003.jpg)
+
+## Statistical Methods
+
+In the field of statistics, the data is assumed to follow a distribution model (e.g., normal distribution) and an instance is considered an outlier if it deviates significantly from the model. Common statistical methods for outlier detection are listed below:
+
+  * Tukey’s Method - Inner "fences" are located at a distance of 1.5 IQR below Q1 and above Q3, and outer fences at a distance of 3 IQR below Q1 and above Q3. A value between the inner and outer fences is a possible outlier, whereas a value falling outside the outer fences is a probable outlier.
+  * Z-Score -  The Z-value test computes the number of standard deviations by which the data varies from the mean. ... a good “rule of thumb” is to consider values with |z_i| >= 3 as outliers, where z_i is a z value of the datapoint x_i. 
+    * Of note, this method is of limited value for small datasets, since the maximum z-score is at most (n-1)/sqrt(n).
+  * Modified Z-Score - The estimators used in the z-score, the sample mean and sample standard deviation, can be affected by the extreme values present in the data. To avoid this problem, the modified z-score uses the median and the median absolute deviation (MAD) instead of the mean and standard deviation of the sample:
+  M_i = 0.6745(x_i - x_bar)/MAD
+where MAD = median(|x_i - x_bar|).
+It is recommended that |M_i| >= 3.5 considered as potential outliers.
+
+  * Interquartile Range with Log-Normal Distribution: If a variable follows a log-normal distribution then the logarithms of the observations follow a normal distribution. A reasonable approach then is to apply the natural log ```ln``` to the original data and then apply the tests intended to the "normalized" distributions. We refer to this method as the log-IQ.
+
+
+  
+  
