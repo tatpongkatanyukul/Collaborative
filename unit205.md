@@ -106,3 +106,13 @@ In this method, the "k" nearest observations to the missing observation are iden
 
 ![Choose the Best Imputation](https://github.com/tatpongkatanyukul/Collaborative/blob/main/ChoiceMethod.jpg)
 
+![Example choosing the best imputation](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Missingness1.jpg)
+
+## Conclusion
+
+Always evaluate the reasons for missingness:
+
+  * Is it MCAR/MAR/MNAR?
+  * What is the proportion of missing data per variable and per record?
+  * Multiple imputation approaches generally perform better than other methods. 
+  * Evaluation tools must be used to tailor the imputation methods to a particular dataset.
