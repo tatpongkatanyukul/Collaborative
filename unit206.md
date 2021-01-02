@@ -19,3 +19,12 @@ A good understanding of the data itself is required before choosing a model to d
 
 ... the ground-truth about outliers is often unavailable, as in the case of unsupervised scenarios, hampering the use of quantitative methods to assess the effectiveness of the algorithms in a rigorous way. The analyst is left with the alternative of qualitative and intuitive evaluation of results. To overcome this difficulty in this chapter, we will use logistic regression models to investigate the performance of different outlier identification techniques in the medically relevant case study.
 
+## Theoretical Concepts
+
+### Outlier Detection
+
+Outlier identification methods can be classified into supervised and unsupervised methods, depending on whether prior information about the abnormalities in the data is available or not. The techniques can be further divided into univariable and multivariable methods, conditional on the number of variables considered in the dataset of interest.
+
+The simplest form of outlier detection is extreme value analysis of unidimensional data. In this case, the core principle of discovering outliers is to determine the statistical tails of the underlying distribution and assume that either too large or too small values are outliers. In order to apply this type of technique to a multidimensional dataset, the analysis is performed one dimension at a time. In such a multivariable analysis, outliers are samples which have unusual combinations with other samples in the multidimensional space. It is possible to have outliers with reasonable marginal values (i.e. the value appears normal when confining oneself to one dimension), but due to linear or non-linear combinations of multiple attributes these observations unveil unusual patterns in regards to the rest of the population under study.
+
+![outliers](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Selection_003.jpg)
