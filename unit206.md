@@ -99,3 +99,5 @@ Key Takeaways
   * Distinguishing outliers as useful or uninformative is not clear cut.
   * In certain contexts, outliers may represent extremely valuable information that must not be discarded.
   * Various methods exist and will identify possible or likely outliers, but the expert eye must prevail before deleting or correcting outliers.
+
+code: [Critical Data and Codes](https://github.com/MIT-LCP/critical-data-book)
