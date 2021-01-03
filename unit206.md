@@ -70,4 +70,32 @@ The results in bold highlight the variable with the most outliers in each method
 
 A preliminary investigation of results showed that values falling within reference normal ranges (see Table 2.06.1) are never identified as outliers, whatever the method. On the other hand, critical values are often identified as such. Additional remarks can be made as in general (1) more outliers are identified in the variable BUN than in any other and (2) the ratio of number of outliers and total number of patients is smaller in the class 1 cohorts (non-survivors). As expected, for variables that approximate more to lognormal distribution than to a normal distribution, such as potassium, BUN and PCO2, the IQ method applied to the logarithmic transformation of data (log-IQ method) identifies less outliers than the IQ applied to the real data. Consider for instance the variable BUN, which follows approximately a lognormal distribution. 
 
+## Outliers identified by statistical analysis
 
+Normal values are in the range of 95–105 mmol/L, whereas values <70 or >120 mmol/L are considered critical, and concentrations above 160 mmol/L are physiologically impossible.
+
+
+## Multivariable Analysis
+
+Using model-based approaches, an unusual combination of values for a number of variables can be identified.
+
+The detection of outliers seems to be more influenced by binary features than by continuous features: red lines are, with some exceptions, fairly close to black lines for the continuous variables (1 to 2 and 15 to 25) and distant in the binary variables. A possible explanation is that clustering was essentially designed for multivariable continuous data; binary variables produce a maximum separation, since only two values exist, 0 and 1, with nothing between them.
+
+## Classification of Mortality in IAC and Non-IAC Patients
+
+The performance of the models is evaluated in terms of area under the receiver operating characteristic curve (AUC), accuracy (ACC, correct classification rate), sensitivity (true positive classification rate), and specificity (true negative classification rate). A specific test suggested by DeLong and DeLong can then test whether the results differ significantly.
+
+Overall, the best AUC is obtained when all the data is used, and when only a few outliers are removed.
+
+## Conclusions & Key Takeaways
+
+The univariable outlier analysis provided in the case study showed that a large number of outliers were identified for each variable within the predefined classes, meaning that the removal of all the identified outliers would cause a large portion of data to be excluded. For this reason, ranking the univariate outliers according to score values and discarding only those with the highest scores provided better classification results.
+
+Overall, none of the outlier removal techniques was able to improve the performance of a classification model. As it had been cleaned these results suggest that the dataset did not contain impossible values, extreme values are probably due to biological variation rather than experimental mistakes. Hence, the “outliers” in this study appear to contain useful information in their extreme values, and automatically excluding resulted in a loss of this information.
+
+Some modeling methods already accommodate for outliers so they have minimal impact in the model, and can be tuned to be more or less sensitive to them. Thus, rather than excluding outliers from the dataset before the modeling step, an alternative strategy would be to use models that are robust to outliers, such as robust regression.
+
+Key Takeaways
+  * Distinguishing outliers as useful or uninformative is not clear cut.
+  * In certain contexts, outliers may represent extremely valuable information that must not be discarded.
+  * Various methods exist and will identify possible or likely outliers, but the expert eye must prevail before deleting or correcting outliers.
