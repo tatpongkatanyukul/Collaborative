@@ -80,6 +80,15 @@ Non-Graphical Univariate EDA in R
   * var(x)	Variance, measure the spread or dispersion of the values
   * IQR(x)	Interquartile range
   
-## 
+## Multivariate Non-Graphical EDA
+
+  * Cross Tabulation
+    * Cross-tabulation represents the basic bivariate non-graphical EDA technique. It is an extension of tabulation that works for categorical data and quantitative data with only a few variables. For two variables, build a two-way table with column headings matching the levels of one variable and row headings matching the levels of the other variable, then ﬁll in the counts of all subjects that share a pair of levels. The two variables may be both exposure, both outcome variables, or one of each.
+  * Summary Statistics
+    * Summary statistics include, frequency, mean, median, mode, range, interquartile range, maximum and minimum values. An extract of summary statistics of patient demographics, vital signs, laboratory results and comorbidities, is shown in Table 2.07.4.
+    
+Table 2.07.4: Comparison between the two study cohorts (subsample of variables only, n = 1776)
+![ComparisonBetween2Cohorts](https://github.com/tatpongkatanyukul/Collaborative/blob/main/ComparisonB2cohorts.png)
+  
   
 ---
