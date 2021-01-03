@@ -90,5 +90,6 @@ Non-Graphical Univariate EDA in R
 Table 2.07.4: Comparison between the two study cohorts (subsample of variables only, n = 1776)
 ![ComparisonBetween2Cohorts](https://github.com/tatpongkatanyukul/Collaborative/blob/main/ComparisonB2cohorts.png)
   
-  
+BREAK HERE! ... It is important ....
+
 ---
