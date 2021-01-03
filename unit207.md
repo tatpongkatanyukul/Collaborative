@@ -28,6 +28,58 @@ References
 
 ## Suggested EDA Techniques
 
+EDA Technique by Data Type
+  * Categorical: Descriptive statistics
+  * Univariate continuous: Line plot, Histograms
+  * Bivariate continuous: 2D scatter plots
+  * 2D arrays: Heatmap
+  * Multivariate, i.e., trivariate: 3D scatter plot or 2D scatter plot with a 3rd variable represented in different color, shape, or size
+  * Multiple groups: Side-by-side boxplot
+  
+EDA Technique by Objective
+  * Getting an idea of the distribution of a variable: Histogram
+  * Finding outlier: Histogram, scatterplots, box-and-whisker plots
+  * Quantify the relationship between two variables (one exposure and one outcome): 2D scatter plot +/- curve ﬁtting, Covariance and correlation
+  * Visualize the relationship between two exposure variables and one outcome variable: Heatmap
+  * Visualization of high-dimensional data: t-SNE or PCA, 2D/3D scatterplot
+  
+## Univariate Non-Graphical EDA
 
+  * Categorical Data: Tabulation of the Frequency of Each Category
+    * A simple univariate non-graphical EDA method for categorical variables is to build a table containing the count and the fraction (or frequency) of data of each category.
+  * Quantitative Data: Characteristics
+    * Sample statistics express the characteristics of a sample using a limited set of parameters. They are generally seen as estimates of the corresponding population parameters from which the sample arises. These characteristics can express the central tendency of the data (arithmetic mean, median, mode), its spread (variance, standard deviation, interquartile range, maximum and minimum value) or some features of its distribution (skewness, kurtosis). Many of those characteristics can easily be seen qualitatively on a histogram (see below). Note that these characteristics can only be used for quantitative variables (not categorical).
+  
+### Central Tendency Parameters
+The arithmetic mean, or simply called the mean, is the sum of all data divided by the number of values. The median is the middle value in a list containing all the values sorted. Because the median is affected little by extreme values and outliers, it is said to be more "robust" than the mean
+  
+### Variance
 
+When calculated on the entirety of the data of a population (which rarely occurs), the variance σ2 is obtained by dividing the sum of squares by n, the size of the population. The sample formula for the variance of observed data conventionally has n-1 in the denominator instead of n to achieve the property of "unbiasedness", which roughly means that when calculated for many different random samples from the same population, the average should match the corresponding population quantity (here σ^2). s^2 is an unbiased estimator of the population variance σ^2.
+
+s^2 = \frac{ \sum_i (x_i -\bar{x})^2}{n-1}
+
+For a theoretical Gaussian distribution, mean plus or minus 1, 2 or 3 standard deviations holds 68.3, 95.4 and 99.7 % of the probability density, respectively.
+
+### Interquartile Range (IQR)
+
+The IQR is calculated using the boundaries of data situated between the 1st and the 3rd quartiles.
+...  In the same way that the median is more robust than the mean, the IQR is a more robust measure of spread than variance and standard deviation and should therefore be preferred for small or asymmetrical distributions.
+
+Important Rule (of thumb):
+  * Symmetrical distribution (not necessarily normal) and N > 30: State results as mean ± standard deviation.
+  * Asymmetrical distribution or N < 30 or evidence for outliers: Use median ± IQR, which is more robust.
+  
+Non-Graphical Univariate EDA in R
+  * summary(x)	General description of a vector
+  * max(x)	Maximum value
+  * mean(x)	Average or mean value
+  * median(x)	Median value
+  * min(x)	Smallest value
+  * sd(x)	Standard deviation
+  * var(x)	Variance, measure the spread or dispersion of the values
+  * IQR(x)	Interquartile range
+  
+## 
+  
 ---
