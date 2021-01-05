@@ -89,7 +89,59 @@ Non-Graphical Univariate EDA in R
     
 Table 2.07.4: Comparison between the two study cohorts (subsample of variables only, n = 1776)
 ![ComparisonBetween2Cohorts](https://github.com/tatpongkatanyukul/Collaborative/blob/main/ComparisonB2cohorts.png)
-  
-BREAK HERE! ... It is important ....
+
+It is important to identify any differences in subject baseline characteristics. The beneﬁts of this are two-fold: ﬁrst it is useful to ***identify potentially confounding variables*** that contribute to an outcome in addition to the predictor (exposure) variable. For example, if mortality is the outcome variable then differences in severity of illness between cohorts may wholly or partially account for any variance in mortality. Identifying these variables is important as it is possible to attempt to control for these using adjustment methods such as multivariable logistic regression. Secondly, it may allow the ***identiﬁcation of variables that are associated with the predictor variable*** enriching our understanding of the phenomenon we are observing.
+
+The analytical extension of identifying any differences using medians, means and data visualization is to test for statistically signiﬁcant differences in any given subject characteristic using for example Wilcoxon-Rank sum test.
+
+![Identify factors](https://github.com/tatpongkatanyukul/Collaborative/blob/main/IdentifyingConfoundingFactorsB2cohorts.png)
+
+### Covariance & Correlation
+
+A positive covariance means the variables are positively related (they move together in the same direction), while a negative covariance means the variables are inversely related.
+
+A problem with covariance is that its value depends on the scale of the values of the random variables.
+Given cov(x,y), the larger the values of x and y, the larger the covariance. 
+
+It makes it impossible for example to compare covariances from data sets with different scales (e.g. pounds and inches). This issue can be ﬁxed by dividing the covariance by the product of the standard deviation of each random variable, which gives ***Pearson’s correlation coefﬁcient.***
+
+cor(x,y) = cov(x,y)/( s_x s_y )
+where cov(x,y) is the covariance between x and y
+and s_x and s_y are the sample standard deviations of x and y.
+
+The signiﬁcance of the correlation coefﬁcient between two normally distributed variables can be evaluated using Fisher’s z transformation (see the cor.test function in R for more details). Other tests exist for measuring the non-parametric relationship between two variables, such as Spearman’s rho or Kendall’s tau.
+
+## Graphical EDA: Histograms
+
+Histograms are among the most useful EDA techniques, and allow you to gain insight into your data, including distribution, central tendency, spread, modality and outliers.
+
+... Histograms give an immediate impression of the shape of the distribution (symmetrical, uni/multimodal, skewed, outliers…).
+The number of bins heavily inﬂuences the ﬁnal aspect of the histogram; ***a good practice is to try different values, generally from 10 to 50.***
+
+Histograms enable the conﬁrmation that an operation on data was successful. For example, if you need to log-transform a data set, it is interesting to plot the histogram of the distribution of the data before and after the operation (Fig. 2.07.4).
+
+![Fig 2.07.4](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Fig2074logTransform.png)
+
+Histograms are interesting for ﬁnding outliers. For example, pulse oximetry can be expressed in fractions (range between 0 and 1) or percentage, in medical records. Figure 2.07.5 is an example of a histogram showing the distribution of pulse oximetry, clearly showing the presence of outliers expressed in a fraction rather than as a percentage.
+
+![Fig 2.07.5](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Fig2075_pulseoximetry.png)
+
+
+### Stem Plots
+
+Stem and leaf plots (also called stem plots) are a simple substitution for histograms.
+
+My question: how about violin plot?
+
+## Graphical EDA: Boxplots
+
+Boxplots are interesting for representing information about the central tendency, symmetry, skew and outliers, but they can hide some aspects of the data such as multimodality. Boxplots are an excellent EDA technique because they rely on robust statistics like median and IQR.
+
+The central rectangle is limited by Q1 and Q3, with the middle line representing the median of the data. The whiskers are drawn, in each direction, to the most extreme point that is less than 1.5 IQR beyond the corresponding hinge. Values beyond 1.5 IQR are considered outliers.
+
+It is also important to realize that the number of boxplot outliers depends strongly on the size of the sample. In fact, for data that is perfectly normally distributed, we expect 0.70 % (about 1 in 140 cases) to be “boxplot outliers”, with approximately half in either direction.
+
+
+
 
 ---
