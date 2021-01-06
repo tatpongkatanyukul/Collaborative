@@ -237,6 +237,20 @@ In the group with the lowest SOFA scores, approximately what proportion of patie
 What SOFA score range of patients with indwelling arterial cathethers had the largest 28-day mortality 95% confidence interval?
 (My addition: given patients are grouped by their SOFA scores into ???)
 
+### Question 5b
+What is the odds ratio for having CHF vs. not having CHF on 28-day mortality?
+
+
+CHF (Chronic Heart Failure) is a comorbidity.
+
+### Question 5e (There are no 5c and 5d)
+What is the odds ratio for patients with a SOFA score of 7 compared to the group with the lowest SOFA scores on 28-day mortality?
+
+The odds ratio is ... ? 
+
+### Question 5g
+In SOFA score range does the plot seem to suggest that CHF is associated with lower 28-day mortality?
+(My addition: this seems to ask for which SOFA score range shows the strongest association between CHF and lower 28-day mortality)
 
 
 
