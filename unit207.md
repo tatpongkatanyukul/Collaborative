@@ -194,6 +194,8 @@ Curve ﬁtting is one way to quantify the relationship between two variables or 
 ... cognitive disfluency ~ human learns better when it's harder to learn sometimes. So when you slow things down, make things harder, it often is a good check to makke sure that you're trying to understand the data as best you can.
 ... goal is trying to figure out what data is saying.
 
+(See Alter, A.L., 2013. The benefits of cognitive disfluency. Current Directions in Psychological Science, 22(6), pp.437-442.)
+
 ---
 
 ## EDA Workshop
