@@ -142,6 +142,20 @@ The central rectangle is limited by Q1 and Q3, with the middle line representing
 It is also important to realize that the number of boxplot outliers depends strongly on the size of the sample. In fact, for data that is perfectly normally distributed, we expect 0.70 % (about 1 in 140 cases) to be “boxplot outliers”, with approximately half in either direction.
 
 
+## Graphical EDA: Probability Plots
 
+The interpretation of a QN plot is visual (Fig. 2.07.7): either the points fall randomly around the line (data set normally distributed) or they follow a curved pattern instead of following the line (non-normality).
+
+![QQ plot](https://github.com/tatpongkatanyukul/Collaborative/blob/main/QQplot.png)
+
+Deviation of the observed distribution from normal makes many powerful statistical tools useless. Note that some data sets can be transformed to a more normal distribution, in particular with log-transformation and square-root transformations. If a data set is severely skewed, another option is to discretize its values into a ﬁnite set.
+
+## Graphical EDA: Scatterplots
+
+For binary variables (e.g. 28-day mortality vs. SOFA score), 2D scatterplots are not very helpful (Fig. 2.07.11, left). By dividing the data set in groups (in our example: one group per SOFA point), and plotting the average value of the outcome in each group, scatterplots become a very powerful tool, capable for example to identify a relationship between a variable and an outcome (Fig. 2.07.11, right).
+
+
+
+![Scatter plot](https://github.com/tatpongkatanyukul/Collaborative/blob/main/scatter_plot.png)
 
 ---
