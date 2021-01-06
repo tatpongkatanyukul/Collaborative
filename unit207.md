@@ -195,3 +195,51 @@ Curve ﬁtting is one way to quantify the relationship between two variables or 
 ... goal is trying to figure out what data is saying.
 
 ---
+
+## EDA Workshop
+
+These questions must be answered by examining and having hands-on [the workshop](https://github.com/criticaldata/hst953-edx/blob/master/2.07.%20Exploratory%20Data%20Analysis/eda_workshop_student.Rmd).
+Questions may sound vague, but it will make more sense when working with the workshop R markdown.
+
+### Question 1a
+How many patients in the MICU had an indwelling arterial catheter?
+
+Note: field ```aline_flg``` records use of indwelling arterial catheter.
+(1 = use?)
+
+### Question 1b
+What was the median age of patients with indwelling arterial catheters who died within 28 days of admission?
+
+Note: field ```day_28_flg``` records whether a patient dies within 28 days of admission.
+(1 = die?)
+
+### Question 2a
+How many patients with indwelling arterial catheters remained alive 28 days after admission?
+
+### Question 3b
+What fraction of patients with a SOFA score less than 5 was alive at hospital discharge?
+
+Note: ```hosp_exp_flg``` records a patient has been discharged.
+(1 = discharged?)
+
+Term:
+SOFA (sequential organ failure assessment) or [SOFA score](https://en.wikipedia.org/wiki/SOFA_score)
+is, previously known as the sepsis-related organ failure assessment score, is used to track a person's status during the stay in an intensive care unit (ICU) to determine the extent of a person's organ function or rate of failure.
+
+### Question 4b
+What is the approximate 95% confidence interval for 28-day mortality in patients with a SOFA score of 7?
+
+### Question 4c
+In the group with the lowest SOFA scores, approximately what proportion of patients with indwelling arterial catheters die within 28 days of admission?
+(My addition: given patients are grouped by their SOFA scores into ???)
+
+### Question 4e
+What SOFA score range of patients with indwelling arterial cathethers had the largest 28-day mortality 95% confidence interval?
+(My addition: given patients are grouped by their SOFA scores into ???)
+
+
+
+
+
+
+
