@@ -180,11 +180,11 @@ Curve ﬁtting is one way to quantify the relationship between two variables or 
   
 
 ### Descriptive Statistics
-	* R's tableone, dplyr
-	* Python's tableone
-	* SAS's PROC univariate
-	* Any stats package
-	* SQL
+  * R's tableone, dplyr
+  * Python's tableone
+  * SAS's PROC univariate
+  * Any stats package
+  * SQL
 
 
 ## Integrating EDA into Confirmatory Analysis
@@ -202,6 +202,37 @@ Curve ﬁtting is one way to quantify the relationship between two variables or 
 
 These questions must be answered by examining and having hands-on [the workshop](https://github.com/criticaldata/hst953-edx/blob/master/2.07.%20Exploratory%20Data%20Analysis/eda_workshop_student.Rmd).
 Questions may sound vague, but it will make more sense when working with the workshop R markdown.
+
+Fields
+  * ```aline_flg``` IAC: binary {0, 1}
+  * ```icu_log_day``` ICU lenght of stay: float
+  * ```hospital_los_day```
+  * ```age```
+  * ```gender_num``` gender: binary {0, 1}
+  * ```weight_first``` weight at first admission: float
+  * ```bmi```
+  * ```sapsi_first```
+  * ```sofa_first``` SOFA score at first admission: integer? (0-17)
+  * ```service_unit```
+  * ```service_num``` ?: binary {0,1}
+  * ```day_icu_intime```
+  * ```day_icu_intime_num``` ?: integer (1-7)
+  * ```hour_icu_intime```
+  * ```hosp_exp_flag``` ?: binary {0,1}
+  * ```icu_exp_flag``` ?: binary
+  * ```day_28_flag``` die within 28-day admission: binary
+  * ```mort_day_censored``` mortality days?: float (0-3094.1)
+  * ```censor_flg```
+  * ```sepsis_flg```: all 0's
+  * ```chf_flg```: CHF (chronic heart failure): binary
+  * ...
+  
+There are 1776 patients (rows) and 46 fields (columns).
+
+```flg``` indicates a binary field: "(usually 1 if present, and 0 if not)"
+
+
+
 
 ### Question 1a
 How many patients in the MICU had an indwelling arterial catheter?
