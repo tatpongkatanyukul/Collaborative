@@ -158,4 +158,32 @@ For binary variables (e.g. 28-day mortality vs. SOFA score), 2D scatterplots are
 
 ![Scatter plot](https://github.com/tatpongkatanyukul/Collaborative/blob/main/scatter_plot.png)
 
+## Graphical EDA: Scatterplot Examples
+
+APACHE ~ [APACHE II](https://en.wikipedia.org/wiki/APACHE_II)
+---Acute Physiology And Chronic Health Evaluation II--- is a severity-of-disease classification system.
+... an integer score from 0 to 71 is computed based on several measurements; higher scores correspond to more severe disease and a higher risk of death.
+
+## Graphical EDA: Curve Fitting
+
+Curve ﬁtting is one way to quantify the relationship between two variables or the change in values over time.
+
+## EDA Tools
+
+### Visualization
+  * R's ```ggplot2```
+  * Tableau
+  * Plotly
+  * Python's matplotlib and ggplot clone
+  * D3.js
+  
+  
+
+### Descriptive Statistics
+	* R's tableone, dplyr
+	* Python's tableone
+	* SAS's PROC univariate
+	* Any stats package
+	* SQL
+
 ---
