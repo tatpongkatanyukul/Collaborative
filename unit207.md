@@ -225,6 +225,7 @@ Fields
   * ```censor_flg```
   * ```sepsis_flg```: all 0's
   * ```chf_flg```: CHF (chronic heart failure): binary
+  * ```bun_first```: [Blood Urea Nitrogen](https://www.webmd.com/a-to-z-guides/blood-urea-nitrogen-test)
   * ...
   
 There are 1776 patients (rows) and 46 fields (columns).
