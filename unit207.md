@@ -171,7 +171,7 @@ Curve ﬁtting is one way to quantify the relationship between two variables or 
 ## EDA Tools
 
 ### Visualization
-  * R's ```ggplot2```
+  * R's ```ggplot2```, ```lattice```, and ```shiny```
   * Tableau
   * Plotly
   * Python's matplotlib and ggplot clone
@@ -185,5 +185,13 @@ Curve ﬁtting is one way to quantify the relationship between two variables or 
 	* SAS's PROC univariate
 	* Any stats package
 	* SQL
+
+
+## Integrating EDA into Confirmatory Analysis
+
+## Conclusion
+
+... cognitive disfluency ~ human learns better when it's harder to learn sometimes. So when you slow things down, make things harder, it often is a good check to makke sure that you're trying to understand the data as best you can.
+... goal is trying to figure out what data is saying.
 
 ---
