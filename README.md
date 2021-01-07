@@ -49,7 +49,7 @@ Unit 2
   * [2.05](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit205.md) dealing with missing data
   * [2.06](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit206.md) handling outliers
   * [2.07](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit207.md) common methods for exploring data
-  * 2.08-2.09 data analysis (linear regression, logistic regression and survival analysis inc. Cox proportional hazards models)
+  * [2.08](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit208.md)-2.09 data analysis (linear regression, logistic regression and survival analysis inc. Cox proportional hazards models)
   * 2.10 model validation and sensitivity analyses (robustness in the face of varying model assumptions)
 
 
