@@ -17,3 +17,11 @@ The former provides a much clearer path for the data scientist to perform the ne
 To reinforce what has been discussed in previous units, it is important to first differentiate between ***outcomes*** and ***covariates***. Outcomes, also referred to as response or dependent variables, are what the study aims to investigate or predict. In the previous example, the outcome is 28-day mortality. Covariates are the variables whose effect on the outcome you would like to study or that you believe may have some effect on the target outcome.
 
 ## Introduction to Data Analysis: Linear Regression
+
+Download dataset
+```{r}
+url <- "https://archive.physionet.org/physiobank/database/mimic2-iaccd/full_cohort_data.csv"
+dat <- read.csv(url)
+```
+
+## Introduction to Regression Analysis: Part I
