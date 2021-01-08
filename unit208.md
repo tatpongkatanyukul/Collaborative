@@ -84,3 +84,11 @@ P-values are the probability of observing data as or more extreme than what was 
 We reject the null hypothesis when the p-value is smaller than the significance level,  α .
 
 ## Linear Regression: Statistical Interactions and Testing Nest Models - Part I
+
+We can set the gender_num variable to the class factor by using the as.factor function:
+
+```dat$gender_num <-as.factor(dat$gender_num)```
+
+## Linear Regression: Statistical Interactions and Testing Nest Models - Part II
+
+
