@@ -49,8 +49,9 @@ Unit 2
   * [2.05](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit205.md) dealing with missing data
   * [2.06](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit206.md) handling outliers
   * [2.07](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit207.md) common methods for exploring data
-  * [2.08](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit208.md)-2.09 data analysis (linear regression, logistic regression and survival analysis inc. Cox proportional hazards models)
-  * 2.10 model validation and sensitivity analyses (robustness in the face of varying model assumptions)
+  * [2.08](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit208.md)-[2.09](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit209.md) data analysis (linear regression, logistic regression and survival analysis inc. Cox proportional hazards models)
+  * [2.10](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit210.md) model validation and sensitivity analyses (robustness in the face of varying model assumptions)
+  * [2.11](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit211.md) Causal inference
 
 
 # Final Exam (Due Jan 25, 2020)
