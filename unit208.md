@@ -73,4 +73,14 @@ failure, edema and neurologic disorders, and mechanical hyperventilation.
 ## Linear Regression: Selecting a Model
 
 
-  
+## Linear Regression: Hypothesis Testing
+
+Hypothesis testing in statistics is fundamentally about evaluating two competing hypotheses. The null hypothesis is set up as a strawman (a sham argument set up to be defeated) and is the hypothesis you would like to provide evidence against.
+
+This is almost always  βk , and it is often written as  H0:βk=0 . The alternative hypothesis is commonly assumed to be  βk≠0  and will often be written as  HA:βk≠0 . A statistical significance level,  α , should be established before any analysis is performed. This value is known as the Type I error and is the probability that we falsely conclude that the coefficient is non-zero when the coefficient is actually zero. It is commonly set at 0.05.
+
+P-values are the probability of observing data as or more extreme than what was seen, assuming the null hypothesis is true.
+
+We reject the null hypothesis when the p-value is smaller than the significance level,  α .
+
+## Linear Regression: Statistical Interactions and Testing Nest Models - Part I
