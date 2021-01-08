@@ -25,3 +25,52 @@ dat <- read.csv(url)
 ```
 
 ## Introduction to Regression Analysis: Part I
+
+Check out residuals is important.
+
+## Introduction to Regression Analysis: Part II
+
+Linear regression ~ orinary least square
+
+Logistic regression
+  * binary outcome
+  * ordinary outcome: proportional odds model, conditional logistic regression
+  
+Survival analysis --> Cox proportional hazards model
+
+## Linear Regression: Initial Analysis
+
+```
+co2.lm <- lm(tco2_first~pco2_first,data=dat)
+```
+
+The basic lm command has two parts. The first is the formula which has the general syntax "outcome ~ covariates".
+The second argument is separated by a comma and is specifying the data frame to use. 
+In our case, the data frame is called dat , so we pass data = dat , noting that both tco2_first and pco2_first are columns in the dataframe dat.
+
+```
+summary(co2.lm)
+```
+
+The first part recalls the model we fit, which is useful when we have fit many models, and are trying to compare them. The second part lists some summary information about what are called residuals. Next, listed are the coefficient estimates; these are the  β^0 , (Intercept), and  β^1 , pco2_first, the parameters in the best fit line that we are trying to estimate. This output is telling us that the best fit equation for the data is:
+
+tco2_first = 16.21 + 0.189×pco2_first
+
+My note:
+[TCO2](https://harvardapparatus.com/media/harvard/pdf/OT20.pdf) (total carbon dioxide) is either measured on plasma by automated chemistry analyzers or is calculated from pH and PCO2 measured on whole blood gas analyzers.
+... Measurement of TCO2 as part of an electrolyte profile is useful chiefly
+to evaluate HCO3 concentration. TCO2 and HCO3 are useful in the assessment of acid-base im bal ance
+(along with pH and PCO2) and electrolyte imbalance.
+
+[PCO2](https://harvardapparatus.com/media/harvard/pdf/OT20.pdf) (partial pressure of carbon dioxide) is a measure of the tension or pressure of carbon
+di ox ide dissolved in the blood. PCO2 represents the balance between cellular production of CO2 and
+ven ti la to ry removal of CO2 and a change in PCO2 indicates an alteration in this balance. Causes of
+primary respiratory acidosis (increase in PCO2) are airway obstruction, sedatives and an es thet ics,
+res pi ra to ry distress syndrome, and chronic obstructive pulmonary disease. Causes of pri ma ry
+res pi ra to ry alkalosis (decreased PCO2) are hypoxia (resulting in hyperventilation) due to chronic heart
+failure, edema and neurologic disorders, and mechanical hyperventilation.
+
+## Linear Regression: Selecting a Model
+
+
+  
