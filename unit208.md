@@ -91,4 +91,23 @@ We can set the gender_num variable to the class factor by using the as.factor fu
 
 ## Linear Regression: Statistical Interactions and Testing Nest Models - Part II
 
+## Linear Regression: Reporting and Interpreting
 
+Often, it’s a good idea to also discuss how well the overall model fit. There are several ways to accomplish this, but reporting a unit-less quantity known as  R^2  (pronounced r-squared) is often done.
+
+This quantity is a proportion (a number between 0 and 1) and describes how much of the total variability in the data is explained by the model. An  R^2  of 1 indicates a perfect fit, while 0 explains no variability in the data. What exactly constitutes a ‘good’  R^2  depends on the subject matter and how it will be used.
+
+## Linear Regression: Confidence and Prediction Intervals - Part I
+
+## Linear Regression: Confidence and Prediction Intervals - Part II
+
+## Take home messages
+
+Linear regression is an extremely powerful tool for conducting data analysis on continuous outcomes. Despite this, there are several aspects to be aware of when performing this type of analysis:
+
+  * Hypothesis testing and the interval generation are reliant on modeling assumptions.
+  * Outliers can be problematic when fitting models.
+  * Be concerned about missing data.
+  * Assess potential multi-colinearity. Co-linearity can occur when two or more covariates are highly correlated, for instance if blood pressure on the left and right arms were simultaneously measured, and both were used as covariates in the model.
+  * Check to see if outcomes are dependent.
+These concerns should not discourage you from using linear regression. It is extremely powerful, simple and reasonably robust to some of the problems discussed above, depending on the situation.
