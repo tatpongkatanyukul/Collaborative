@@ -45,7 +45,7 @@ Causality as a hypothetical intervention
 
 ## Identifiability
 
-Stable Unit Treatment Value Assumption (SUTVA)
+### Stable Unit Treatment Value Assumption (SUTVA)
 
 (a) No interference: the treatment status of any unit does not affect the potential outcomes of the other units. A subject's counterfactual outcome under treatment value 'a' does not depend on other subjects' treatment values. Violations: spill-over effects, carry-over effects, contagion: individual's outcome is influenced by social interaction with other people.
   
@@ -55,13 +55,24 @@ The assumption of no interference involves no interaction between units (defined
 
 Example: Zeus will die if he receives a heart transplant. This statement implicitly assumes that all heart transplants are performed by the same surgeon using the same procedure and equipment. That is, there is only one version of heart transplant treatment. If there were multiple version of treatment (surgeons with different skills) then it is possible that Zeus would have survived.
   
+(c) Consistency Assumption (no variation in treatment)
 
-Consistency Assumption
+The observed outcome for a given treatment will be potential outcome.
+Violation: some patients get extra strenght aspirin
 
-Ignorability / Exchangeability Assumption
-
-Positivity Assumption
-
-Stratification and Example
-
-
+(d) Ignorability / Exchangeability Assumption
+  * Outcome should be independent of treatment for the given covariates
+  * The risk of death in a white group would have to be the same as the risk of death in grey group if individuals in the white group receive same treatment given to those in the grey group
+  * coutnerfactual outcome and the actual treatment are independent
+  
+(e) Positivity Assumption
+  * experimental treatment assumption
+  * treatment assignment is not deterministic: P(A = a|X = x) > 0 for all x's (covariates)
+  * If people with some covariates are ineligible for a particular treatment, then we should exclude those groups of people from the study.
+  
+### Stratification and Example
+  * stratification helps: subgroups --> strata
+    * confounding factor may not vary at all between the exposed and unexposed subgroups
+  * Example, mortality vs gender --> add in age --> clarify the causal effect (age is a confounding factor/confounder)
+  
+  
