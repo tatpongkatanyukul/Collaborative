@@ -7,7 +7,9 @@ To understand the intuition behind what is happening, let us start by examining 
 A contingency table cross-tabulates the outcome across two or more levels of a covariate. When you further stratify your outcome on a variable (feature, factor etc.) you can sometimes observe more dramatic differences within groups that suggest the variable may be important. Let us now consider the example of 28 day mortality distributed among individuals over and under the age of 55. 
 
 contingency table
-| Mortality | 0 | 1 |
+
+| Mortality | 0  | 1 |
+|-----------|----|---|
 |<=55       | 883| 40|
 |>55        | 610|243|
 
