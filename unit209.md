@@ -67,6 +67,6 @@ Reference textbooks
 
 ## Trees: Decision Trees
 
-![Iris Video]((https://github.com/tatpongkatanyukul/Collaborative/blob/main/iris_data.mp4))
+[Iris Video]((https://github.com/tatpongkatanyukul/Collaborative/blob/main/iris_data.mp4))
   * cool historical comments on Charles Darwin, variance, and IRIS data
 
