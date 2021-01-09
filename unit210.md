@@ -20,4 +20,4 @@ Sensitivity analysis is the process of gaining confidence in the generalizabilit
 
 ## Model Assumptions
 
-
+The first step to verifying model validity is to check whether your data and analysis meet the model's assumptions.
