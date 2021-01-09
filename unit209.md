@@ -72,4 +72,28 @@ Reference textbooks
 
 ## Trees: How to build decision trees
 
+## Boosting and Bagging
+  * Bootstrapping
+  * Boosting: using weighting mechanism to prioritize datapoints poorly predicted previously to train a new model
+  * Bagging: bootstrappin subdatasets to train sub-models and average the sub-predictions
+  * Random Forest: similar to bagging, but adding random selection of a subset of attributes
+  * Gradient Boosting: Use a child model to correct its parent model. Super creative!!!
+  
+## Evaluation
+  * Holdout (regular way to use a test set for evaluation)
+  * Jackknifing: repeat the holdout but with new shuffled sets, the average the measures
+  * Bootstraping for Random Forest: since each submodel of RF is trained with only a subset of data, use the left-out to evaluate it and once they are all done, average the measures out. We cannot do this with Gradient Boosting
+  * Cross-Validation
+    * different from Jackknife that Jackknife is random and it is possible that some datapoints may get used multiple times, while some may never be used.
+  * Leave one out = Cross-Validation with a group of only one datapoint
+    * It is computationally expensive. It is usually used when there are two few datapoints. E.g., 30 datapoints.
+  
+## Trees: Summary
+
+Exercise
+
+1. An example using the iris dataset as Alistair demonstrated in his video to best understand the concept. The ensemble methods tutorial provides a more applied exploration of the 506 census tracts of Boston from the 1970 census.
+Please follow this tutorial walking through how you build trees on the [iris dataset](https://ademos.people.uic.edu/Chapter24.html) and for an introduction to [ensemble methods](https://daviddalpiaz.github.io/r4sl/ensemble-methods.html) (bagging & boosting).
+
+2. An example from [IBM Watson using XGBoost](https://dataplatform.cloud.ibm.com/data/notebooks/converter/assets/de824290-6811-455b-b2a4-678fd6ae06ee?access_token=cb51caafa25bb0e596867d19fd0e96c77baeffca4b561091e38f0cd4476dc682&project=18a1ec4b-baaa-4cd8-b9c9-28001e5147ee) to classify breast cancer as benign or malignant based on features from 569 diagnostic images from the Wisconsin dataset. Go through steps 2 and 3.
 
