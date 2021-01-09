@@ -21,3 +21,33 @@ Sensitivity analysis is the process of gaining confidence in the generalizabilit
 ## Model Assumptions
 
 The first step to verifying model validity is to check whether your data and analysis meet the model's assumptions.
+
+plot residuals (errors) vs fitted (prediction, y)
+
+## Evaluating Model Performance
+We need to know how to evaluate model accuracy. There are many ways to do this, three of the most simple and commonly used methods are:
+  * Accuracy, the proportion of records which were correctly labeled (in a classification problem)
+  * R^2, the proportion of the variance in the outcome parameter explained by the model (in a regression problem)
+  * The area under the Receiver Operating Characteristic Curve (AU-ROC) (in a classification problem)
+  
+### Sensitivity and Specificity
+
+One issue with accuracy is that it is not a good metric of performance if the dataset is unbalanced.
+For instance, imagine you were predicting mortality in a hospital with a 1% mortality rate. A model which predicted everyone to be a 0 would be 99% accurate! To protect against this flaw, we should also always look at the specificity and sensitivity of our model.
+
+Sensitivity (also known as the true positive rate) measures the proportion of positives that are correctly identified (TP)/(TP+FN)
+==> Recall
+
+Specificity (also known as the true negative rate) measures the proportion of negatives that are correctly identified (TN)/(TN+FP)
+
+### Receiver Operating Characteristic Curve
+
+## Validation
+
+validation is used to ensure that the model will perform similarly under different conditions - such as similar data from a new source. Several methods can be used to validate model performance:
+  * Only training on part of the dataset, keeping some back to validate data
+  * K-fold cross-validation, explained below
+  * External validation - verification on a data set from another source
+
+
+
