@@ -35,5 +35,38 @@ That is from:
   * odds of old = 243/(243 + 610) = 0.284.
   * odds of young =  40/(40 + 883) = 0.043.
 
+## Logistic Regression: Hypothesis Testing
 
+Just as in the case of linear regression, there is a way to test hypotheses for logistic regression. It follows much of the same framework, with the null hypothesis being β = 0. If you recall, this is the log odds ratio, and testing if it is zero is equivalent to a test for the odds ratio being equal to one.
+
+To examine this concept, the MIT Critical Data textbook Secondary Analysis of Electronic Health Records page 232 walks through an example first fitting two competing models, a larger (alternative model), and a smaller (null model) and then using the ANOVA function to assess the difference. Using a Chi-squared test through the ANOVA function is a common way to test whether a categorical covariate should be retained in the model, as it can be difficult to assess using the z-value in the summary table, particularly when one is very statistically significant, and one is not.
+
+## Logistic Regression: Prediction
+
+After fitting a final model, a common task is to generate subsequent predictions. Such a task may occur when doing a propensity score analysis or creating tools for clinical decision support. In the logistic regression setting, this involves attempting to estimate the probability of the outcome given the characteristics (covariates) of a patient. This quantity is often denoted P(outcome|X). We followed this by adding a pred column to our new data frame by using the predict function.
+
+## Logistic Regression: Model Results
+
+This section explains how results are often presented and how to interpret these models. 
+
+## Logistic Regression: Summary
+
+Logistic regression is an extremely powerful tool for data analysis of health data, especially given the numerous binary and categorical outcomes.
+
+As with linear regression, there are a number of concerns to validate such as outliers, missing data, colinearity, dependent/correlated outcomes, and additional modeling assumptions. 
+
+In cases where the data has been divided into too many subgroups (or the study may be simply too small), you may encounter a level of a discrete variable where none (or very few) of one of the outcomes occurred (i.e. verify that there are a sufficient number of cases in stratified groups as extreme imbalance may cause issues).
+
+## Trees: Introduction
+
+Reference textbooks
+  * [Introduction to Statistical Learning](https://github.com/tatpongkatanyukul/Collaborative/blob/main/ISLR%20Seventh%20Printing.pdf)
+  * [Elements of Statistical Learning](https://github.com/tatpongkatanyukul/Collaborative/blob/main/ESLII.pdf)
+  
+## Trees: Prediction vs. Interpretation
+
+## Trees: Decision Trees
+
+![Iris Video]((https://github.com/tatpongkatanyukul/Collaborative/blob/main/iris_data.mp4))
+  * cool historical comments on Charles Darwin, variance, and IRIS data
 
