@@ -67,3 +67,11 @@ What sensitivity analysis you perform depends on the assumptions used to constru
   * How does the cohort affect the results? Are the results replicable with different inclusion criteria? Do your results hold in different subgroups?
   
 The best test of your results is to replicate them with many models and using different data sources.
+
+## Conclusion
+
+  * Validation and sensitivity analyses test the robustness of the model assumptions and are a key step in the modeling process.
+  * The key principle of both these analyses is to vary the model assumptions and observe how the model responds
+  * Failing the validation and sensitivity analyses might require the researcher to start with a new model
+  
+Validation can be used to check that the model is an appropriate fit for the data and is likely to perform similarly in other cohorts. Sensitivity analysis can be used to interrogate inherent assumptions of the primary analysis. If a model fails these tests, this could indicate that a new approach is required. 
