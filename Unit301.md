@@ -66,6 +66,15 @@ lines(xs, xs/(1-xs), col='red')
 lines(c(0,1), c(0.5, 0.5), lty=2)
 
 ```
-    
+
+## Case Study: Reproducing Studies Using MIMIC-III
+
+  * [Google BigQuery project](https://console.cloud.google.com/bigquery)
+  
+# Unit 3.04
+
+Tree-based models: from decision tree to Gradient Boosting
+  * [Tutorial](https://github.com/alistairewj/tree-prediction-tutorial)
+
 
 ***Odds ratio*** is more widely used than relative risks.
