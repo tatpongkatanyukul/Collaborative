@@ -106,3 +106,22 @@ activate py36a2021
 pip install -r requirements.txt
 # installation was done nicely (trouble free! whew!)
 ```
+
+
+## Decision Trees
+
+Properties summary
+To wrap up, tree properties to be tuned are:
+ 
+  * Splitting criteria
+    * Gini index and entropy
+  * Limit the tree size
+    * Maximum tree depth and prune the tree
+  * Number of samples
+    * Minimum in a leaf
+    * Minimum to split in a node
+  * Software package
+    * CART
+    * ID3
+    * C4.5
+    * C5.0 (computationally more expensive)
