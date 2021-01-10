@@ -94,3 +94,15 @@ If you want the exact version of all the packages installed, you can use the req
 pip install -r requirements.txt
 ```
 
+### What I have done
+
+```
+conda env list
+
+conda create --name py36a2021 --clone py36a
+
+activate py36a2021
+
+pip install -r requirements.txt
+# installation was done nicely (trouble free! whew!)
+```
