@@ -45,4 +45,25 @@ Most notably, we can:
 [Survival analysis](https://en.wikipedia.org/wiki/Survival_analysis) is a branch of statistics for analyzing the expected duration of time until one or more events happen, such as death in biological organisms and failure in mechanical systems.
 
 
+Reporting terms
+  * p: proportion, from 0 to 1.
+    * 2 deaths, 8 survivors
+    * p = 0.2
+  * odds = p/(1-p)
+    * odds grows much faster than p
+  * odds ratio: comparing two groups: group 1 and reference group
+    * odds ratio (OR) = odds_1/odds_ref
+  * OLS (ordinary least square): $y' = logit(\beta_0 + \beta_1 x)$, where $logit(y) = log(y/(1-y))$
+    * therefore, y' = log(odds), given $\beta_0 + \beta_1 x$ predicts death proportion p.
+
+```{r}
+xs = seq(0, 0.8, len=10)
+xs
+plot(xs, xs, type='l', ylab="f")
+lines(xs, xs/(1-xs), col='red')
+lines(c(0,1), c(0.5, 0.5), lty=2)
+
+```
+    
+
 ***Odds ratio*** is more widely used than relative risks.
