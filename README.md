@@ -53,5 +53,8 @@ Unit 2
   * [2.10](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit210.md) model validation and sensitivity analyses (robustness in the face of varying model assumptions)
   * [2.11](https://github.com/tatpongkatanyukul/Collaborative/blob/main/unit211.md) Causal inference
 
+# Jan 10th, 2021
+
+[Unit 3](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit301.md)
 
 # Final Exam (Due Jan 25, 2020)
