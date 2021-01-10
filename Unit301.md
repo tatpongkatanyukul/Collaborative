@@ -56,6 +56,7 @@ Reporting terms
   * OLS (ordinary least square): $y' = sigmoid(\beta_0 + \beta_1 x)$, where $sigmoid(a) = 1/(1 + exp(-a))$
     * $logit(y) = log(y/(1-y))$
     * therefore, logit(p) = log(odds).
+    * --> find links between \beta_0, \beta_1 and odds
 
 ```{r}
 xs = seq(0, 0.8, len=10)
