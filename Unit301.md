@@ -71,10 +71,26 @@ lines(c(0,1), c(0.5, 0.5), lty=2)
 
   * [Google BigQuery project](https://console.cloud.google.com/bigquery)
   
+***Odds ratio*** is more widely used than relative risks.
+  
+  
 # Unit 3.04
 
 Tree-based models: from decision tree to Gradient Boosting
   * [Tutorial](https://github.com/alistairewj/tree-prediction-tutorial)
 
+## Set up the environment
 
-***Odds ratio*** is more widely used than relative risks.
+Setting up the environment
+If you downloaded the repository to your local machine most requirements should be met with a simple terminal command:
+
+```
+pip install pydotplus numpy pandas sklearn matplotlib jupyter
+```
+
+If you want the exact version of all the packages installed, you can use the requirements.txt file from the repository:
+
+```
+pip install -r requirements.txt
+```
+
