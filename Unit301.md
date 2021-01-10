@@ -53,8 +53,9 @@ Reporting terms
     * odds grows much faster than p
   * odds ratio: comparing two groups: group 1 and reference group
     * odds ratio (OR) = odds_1/odds_ref
-  * OLS (ordinary least square): $y' = logit(\beta_0 + \beta_1 x)$, where $logit(y) = log(y/(1-y))$
-    * therefore, y' = log(odds), given $\beta_0 + \beta_1 x$ predicts death proportion p.
+  * OLS (ordinary least square): $y' = sigmoid(\beta_0 + \beta_1 x)$, where $sigmoid(a) = 1/(1 + exp(-a))$
+    * $logit(y) = log(y/(1-y))$
+    * therefore, logit(p) = log(odds).
 
 ```{r}
 xs = seq(0, 0.8, len=10)
