@@ -35,3 +35,11 @@ Most notably, we can:
   * Write a code that is highly-commented to explain the reasoning behind the analyses done.
   * Release the code for the public when publishing a study so peers can follow all steps of your data analysis. (Few scientific studies today are published with the code freely available for others to use, and hopefully this trend will change in the coming years).
   * There are a plethora of tools available to help you increase the reproducibility of your code and enable others to understand what you have done.
+
+
+
+##
+
+# Unit 3.03
+
+[Survival analysis](https://en.wikipedia.org/wiki/Survival_analysis) is a branch of statistics for analyzing the expected duration of time until one or more events happen, such as death in biological organisms and failure in mechanical systems.
