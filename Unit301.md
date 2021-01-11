@@ -125,3 +125,39 @@ To wrap up, tree properties to be tuned are:
     * ID3
     * C4.5
     * C5.0 (computationally more expensive)
+
+## Boosting
+
+The premise of boosting is the combination of many weak learners to form a single "strong" learner. In a nutshell, boosting involves building models iteratively, and at each step, focus on the data we performed poorly on.
+
+In our context, we'll use decision trees. The first step would be to build a tree using the data. Next, we'd look at the data that we misclassified and re-weight the data to classify those observations correctly, at a cost of maybe getting some of the other data wrong this time. Let's see how this works in practice.
+
+AdaBoost
+  * train a (sub-)model and evaluate training results
+  * weight miss classified points higher and train another (sub-)model
+  * keep doing it
+  * use prediction from (sub-)models by weighing their outputs using weight = 1/error
+
+## Bagging
+
+
+Bagging is almost the same, except that we don't selectively choose which observations to focus on, but rather we randomly select subsets of data each time or in each iteration.
+
+## Random Forest
+
+The Random Forest takes this one step further (from bagging): instead of just resampling our data, we also select only a fraction of the features to include.
+
+## Gradient Boosting
+
+Gradient boosting (GB) is our last topic - and elegantly combines concepts from the previous methods. As a "boosting" method, GB involves iteratively building trees, aiming to improve upon misclassifications of the previous tree. GB also borrows the concept of subsampling the number of columns (as was done in Random Forests), which tends to prevent overfitting.
+
+... the biggest innovation in GB is that it provides a unifying mathematical framework for boosting models.
+
+GB explicitly casts the problem of building a tree as an optimization problem, defining mathematical functions for how well a tree is performing (which we had before) and how complex a tree is. 
+
+In this light, one can actually treat AdaBoost as a "special case" of GB, where the loss function is chosen to be the exponential loss.
+
+## Dataset: Breast Cancer Wisconsin (Diagnostic)
+
+To make appropriate comparisons, we should calculate 95% confidence intervals on these performance estimates. This can be done a number of ways; ***the easiest is to bootstrap the calculation.***
+
