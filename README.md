@@ -58,3 +58,10 @@ Unit 2
 [Unit 3](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Unit301.md)
 
 # Final Exam (Due Jan 25, 2020)
+
+
+
+# My note
+
+  * R square, a performance index for regression task
+    * [how to calculate](https://en.wikipedia.org/wiki/Coefficient_of_determination)
