@@ -185,4 +185,47 @@ For example, imagine an algorithm designed to allocate a gender-balanced group o
   * A preference-preserving approach would strive to optimize for the preference of users, assigning 30 pizza and 20 spaghetti to the women, and assigning 20 pizza and 30 spaghetti to the men.
 
 
+Disparate Treatment in the Healthcare System:
 
+Disparate treatment in healthcare arises from a wide range of origins, including direct implicit bias on the part of healthcare practitioners and structural disparities in the construction and delivery of healthcare services. A brief, non-exhaustive list of examples of such disparities follows:
+
+Disparities in Treatment:
+African Americans, both children and adults are less likely to receive appropriate pain treatment when in acute distress, even when controlling for age, sex, and time of treatment.
+Up to half of medical students in one study hold the physiologically false belief that Black and white patients experience pain differently 
+Disparities in Diagnosis:
+Women presenting to the emergency department with coronary syndromes are less likely than men with the same symptoms to be admitted to acute care.
+Black patients experiencing symptoms of major depression are more likely to receive a potentially inappropriate diagnosis of schizophrenia 
+Medical students often only learn to diagnose important and common dermatologic findings on light colored skin, with darker skin being treated as an afterthought.
+Structural Disparities:
+54% of rural counties do not have a hospital with obstetrics services 
+Elderly LGBT individuals experience isolation, and a lack of access to culturally competent healthcare and social service providers 
+Understanding these treatment disparities is important to machine learning in that many models implicitly use existing healthcare processes as their "gold standard" for recommendations. A model that attempts to predict diagnostic decisions for patients, for example, will itself be biased if it is generated based on biased physician decisions.
+
+Disparate Outcomes in the Healthcare System:
+
+Healthcare disparities, along with broader disparities in social and government services, contribute to wildly disparate health outcomes for different groups in American society. A similarly non-exhaustive list of these disparities follows:
+
+Life Expectancy Gaps:
+The life expectancy at birth for white Americans is 4.4 years longer than for Black Americans.
+Life expectancy varies by up to 7 years between states.
+Infant Mortality Gaps:
+Infant mortality is twice as high for Black Americans as compared to white Americans, at each level of socioeconomic status 
+American Indian and Alaska Native infants are 2.7x as likely to die from accidents before one year of age
+Chronic Health Problem Gaps:
+Puerto Ricans are 72% more likely to develop asthma than non-Hispanic whites 
+LGBT youth are more likely to be homeless and 2-3x more likely to attempt suicide.
+These vast prior differences in health outcomes between populations cannot be ignored in healthcare data science research, particularly for those models that seek to predict patient outcomes. As recent scholarship has argued, accounting for these disparities is not necessarily so simple as adding a "race factor" to account for and adjust results - as such interventions may act only to set disparities in stone.
+
+Disparities in Medical Knowledge Generation:
+
+Another substantial source of unfairness in healthcare is the biased nature of the medical knowledge generation system, which broadly holds a single (typically white, and typically male) prototype for the presentation and course of disease.
+
+Framingham Scores:
+A classic example of disparity in knowledge generation arises from the Framingham risk study, which generated cardiovascular risk scores from long-term examination of the predominantly white, working class town of Framingham Massachusetts. Perhaps unsurprisingly, these scores perform more poorly when applied to Black patients.
+Clinical Trials:
+Clinical trials for drugs and treatments that go on to influence the care of a diverse range of patients from around the world are often tested on a predominantly white and male population, with women and people of color frequently excluded from or underrepresented in studies.
+In the machine learning context, these disparities can represent a classic example of dataset shift, as the training population (predominantly white and male) can vary substantially in its characteristics as compared to the (broadly diverse) testing population. It is always important to interrogate the demographic makeup of data source populations, and where possible to seek to improve the diversity of datasets (as, for example, the "All of Us" researchers are attempting to do).
+
+Trust:
+
+From sordid medical experiments performed on slaves, to the infamous "Tuskegee Syphilis Study" wherein African American men were not given treatment for advanced stage syphilis in order to study the disease's effects, medicine has routinely exploited Black patients in the name of "research". Similarly, the psychiatric pathologization of homosexuality provided a long-standing pretext for anti-gay bigotry. Understandably, it follows that African Americans and LGBT individuals (particularly those with intersectional identities) have high levels of mistrust toward the medical establishment. It is important for those seeking to implement data science in healthcare to understand this history, and to understand the critiques of those who fear that these technologies may act simply to "automate racism" and further disparities. Trust in healthcare data science is something that must be built and earned, rather than assumed.
