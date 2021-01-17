@@ -167,6 +167,8 @@ Let's practice all models checked in this workshop with real-world data. It cont
 
 The data is originally provided as a time series of observations for a number of variables, but to simplify the analysis, we've done some preprocessing to get a single row for each patient. The following cell will check if the data is available here. If it's not, it will download it to the subfolder data in the same folder as this notebook.
 
+[hands-on: tree-based classification](https://colab.research.google.com/github/alistairewj/tree-prediction-tutorial/blob/master/trees-classification.ipynb)
+
 
 # Unit 3.05 Workshop: Fairness and Bias
 
