@@ -259,3 +259,13 @@ Each of the decisions made at each of these points implicitly embeds certain val
 
 Focusing too directly on "biased data" or "poor model design", however, can be insufficient to describe all relevant socio-technical considerations that play a role in machine learning-driven unfairness or bias. Increasingly, fairness researchers are taking a process-oriented view, and emphasizing that the machine learning pipeline from beginning to end consists of a series of value-driven decisions. We will explore this topic through the framework of Harini Suresh and John V. Guttag (2020).
 
+### Types of Bias:
+
+  * Historical Bias arises when the structure of the world is misaligned with the values or objectives to be encoded or propagated by a model. Importantly, this bias exists in the broader context of the world and is not solved by perfect model design.
+  * Representation Bias arises when the training population under-represents a specific portion of the use case population, and thus does not perform well for that portion of the population
+  * Measurement Bias arises when the chosen set of features (typically proxy features) does not align well with the actual desired characteristics that the model is attempting to capture.
+  * Aggregation Bias arises when distinct populations are inappropriately combined, and a heterogeneous group is reduced to a single model.
+  * Evaluation Bias arises when the testing or benchmark population does not accurately represent the use case population (or when the metrics being used to evaluate the model are not aligned with the way the model is supposed to be used)
+  * Deployment Bias arises when the model is used or interpreted in inappropriate ways after model deployment.
+The diversity of machine learning practitioners is another important component of the sociotechnical context. Women and BIPOC individuals are broadly underrepresented in the machine learning world, and this has implications for the field's "blind spots", and the questions that are and are not asked during the development process.
+
