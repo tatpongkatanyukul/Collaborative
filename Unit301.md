@@ -176,3 +176,13 @@ In late 2019, a group of researchers found widespread bias in a broadly deployed
 
 This case is prototypical of the risks facing machine learning in healthcare. While these technologies have the potential to bring about revolutions in care cost and quality, they also have the potential to exacerbate inequities by improving care to a lesser degree for, or even directly harming, marginalized groups.
 
+An excellent approach to fairness in machine learning is formalized in the work of [Gajane and Pechenizkiy (2018)](https://arxiv.org/pdf/1710.03184.pdf)
+
+## Parity or preference?
+
+For example, imagine an algorithm designed to allocate a gender-balanced group of 100 people either pizza or spaghetti for dinner, with only 50 of each dinner option available. If 60% of men prefer spaghetti and 60% of women prefer pizza, what is a fair way of allocating these foods?
+  * A parity-preserving approach would strive for a representative division regardless of preference, assigning 25 pizza and 25 spaghetti to each group.
+  * A preference-preserving approach would strive to optimize for the preference of users, assigning 30 pizza and 20 spaghetti to the women, and assigning 20 pizza and 30 spaghetti to the men.
+
+
+
