@@ -64,4 +64,10 @@ Unit 2
 # My note
 
   * R square, a performance index for regression task
-    * [how to calculate](https://en.wikipedia.org/wiki/Coefficient_of_determination)
+    * [how to calculate](https://en.wikipedia.org/wiki/Coefficient_of_determination
+    
+R^2 = 1 - SSr/SSt
+where
+SSt = sum_i (y_i - ybar)^2
+and
+SSr = sum_i (y_i - yhat)^2    
