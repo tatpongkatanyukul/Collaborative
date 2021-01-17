@@ -229,3 +229,33 @@ In the machine learning context, these disparities can represent a classic examp
 Trust:
 
 From sordid medical experiments performed on slaves, to the infamous "Tuskegee Syphilis Study" wherein African American men were not given treatment for advanced stage syphilis in order to study the disease's effects, medicine has routinely exploited Black patients in the name of "research". Similarly, the psychiatric pathologization of homosexuality provided a long-standing pretext for anti-gay bigotry. Understandably, it follows that African Americans and LGBT individuals (particularly those with intersectional identities) have high levels of mistrust toward the medical establishment. It is important for those seeking to implement data science in healthcare to understand this history, and to understand the critiques of those who fear that these technologies may act simply to "automate racism" and further disparities. Trust in healthcare data science is something that must be built and earned, rather than assumed.
+
+
+***Error due to variance*** arises when there is a lack of data for a specific group, leading to a poor estimate. It is solved by gathering additional data.
+
+![Variance](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Variance.png)
+
+***Error due to bias*** arises when there are legitimately different data functions between groups. It may be solved by changing the model class.
+
+![Bias](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Bias_due_to_variance.png)
+
+***Error due to noise*** arises when there is a greater degree of noise for the minority group on a given set of features. It may be solved by adding additional features.
+
+![Noise](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Bias_due_to_noise.png)
+
+
+One excellent method for assessing the nature of a dataset and whether it is suitable for a specific application arises from the concept of "datasheets for datasets", developed by Timnit Gebru et al. The method involves 50 relevant questions around the motivation, composition, collection process, cleaning process, uses, distribution, and maintenance of a machine learning model.
+
+The machine learning pipeline can be vulnerable to bias at each of its many steps (Harini Suresh et al):
+  * Data Collection refers to the initial gathering of the data in the real world
+  * Data Preparation refers to the decisions made in structuring and pre-processing the data for deployment, as well as the designation of train, test, and validation sets.
+  * Model Development refers to the process of choosing and designing the model, as well as tuning its parameters
+  * Model Evaluation refers to the process of evaluating the performance of the model against either a reserved dataset or a benchmark dataset
+  * Model Postprocessing refers to the decisions made in better aligning the developed model to its target use cases
+  * Model Deployment refers to the real-world steps to deploying the model in its operative environment.
+Each of the decisions made at each of these points implicitly embeds certain values and will have certain impacts. A wide range of methods have been proposed for addressing fairness in model construction at each of these levels.
+
+### Unfairness Arising from Socio-Technical Context:
+
+Focusing too directly on "biased data" or "poor model design", however, can be insufficient to describe all relevant socio-technical considerations that play a role in machine learning-driven unfairness or bias. Increasingly, fairness researchers are taking a process-oriented view, and emphasizing that the machine learning pipeline from beginning to end consists of a series of value-driven decisions. We will explore this topic through the framework of Harini Suresh and John V. Guttag (2020).
+
