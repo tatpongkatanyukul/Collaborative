@@ -161,3 +161,16 @@ In this light, one can actually treat AdaBoost as a "special case" of GB, where 
 
 To make appropriate comparisons, we should calculate 95% confidence intervals on these performance estimates. This can be done a number of ways; ***the easiest is to bootstrap the calculation.***
 
+# Unit 3.04 Workshop: Predictive Models
+
+Let's practice all models checked in this workshop with real-world data. It contains patients admitted to intensive care units at the Beth Israel Deaconness Medical Center in Boston, MA. All patients in the cohort stayed for at least 48 hours, and the goal of the prediction task is to predict in-hospital mortality.
+
+The data is originally provided as a time series of observations for a number of variables, but to simplify the analysis, we've done some preprocessing to get a single row for each patient. The following cell will check if the data is available here. If it's not, it will download it to the subfolder data in the same folder as this notebook.
+
+
+# Unit 3.05 Workshop: Fairness and Bias
+
+In late 2019, a group of researchers found widespread bias in a broadly deployed algorithm for predicting the medical complexity of patients, with the algorithm assigning lower risk scores to Black patients with a similar level of need as white patients. At the centre of this problem was the developers seemingly innocuous use of healthcare spending as a proxy for medical care needs - despite intentionally excluding race as a factor in the algorithm, the researchers failed to account for the systemic factors which lead Black patients to receive lower cost care.
+
+This case is prototypical of the risks facing machine learning in healthcare. While these technologies have the potential to bring about revolutions in care cost and quality, they also have the potential to exacerbate inequities by improving care to a lesser degree for, or even directly harming, marginalized groups.
+
