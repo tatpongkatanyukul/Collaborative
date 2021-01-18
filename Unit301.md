@@ -274,3 +274,4 @@ The diversity of machine learning practitioners is another important component o
 Changes in healthcare practice brought on by the introduction of models may introduce novel inequities into healthcare. One clear example of this was the introduction of melanoma-detection algorithms that are trained predominantly on images of light skin. (JAMA Netw Open. 2019;2(10):e1913436. doi:10.1001/jamanetworkopen.2019.13436)
 
 
+See Guideline for applying ML to healthcare, Wiens et al. "Do no harm: a roadmap for responsible machine learning for health care". Nature Medicine volume 25, pages1337–1340(2019)
