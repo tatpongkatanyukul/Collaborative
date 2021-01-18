@@ -281,5 +281,5 @@ See Guideline for applying ML to healthcare, Wiens et al. "Do no harm: a roadmap
 From McCoy et al (forthcoming) 
 
 | Area of Emphasis   | Recommendations   |
-|----------------------------------------|
+| ---                | ---               |
 | test | test |
