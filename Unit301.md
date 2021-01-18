@@ -275,3 +275,11 @@ Changes in healthcare practice brought on by the introduction of models may intr
 
 
 See Guideline for applying ML to healthcare, Wiens et al. "Do no harm: a roadmap for responsible machine learning for health care". Nature Medicine volume 25, pages1337–1340(2019)
+
+
+## Recommendations for ML to achieve this goal
+From McCoy et al (forthcoming) 
+
+| Area of Emphasis   | Recommendations   |
+|----------------------------------------|
+| test | test |
