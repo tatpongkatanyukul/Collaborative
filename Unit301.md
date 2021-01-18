@@ -282,4 +282,10 @@ From McCoy et al (forthcoming)
 
 | Area of Emphasis   | Recommendations   |
 | ---                | ---               |
-| test | test |
+| Ensure Health Data Science is Equitable By Design    |  Develop pipelines for the promotion of diverse teams in all aspects of health data science. Ensure the inclusion of data from a broad range of groups, in a broad range of contexts. Incorporate global partners to ensure health data science promotes global health equity. |
+| Encourage Public and Open Health Data Science Research | Fund both direct HDS research and research into ethical aspects of HDS. Harmonize ethical oversight between public and private research domains |
+| Ensure Adequate Access to Health Information Technology Infrastructure | Ensure all are included in the datasets by funding health data gathering infrastructure in underserved communities. Develop HDS products with an awareness of the broad range of health IT contexts for deployment |
+| Ensure Health Data Science is Clinically Effective and Impactful | Ensure the presence of multidisciplinary teams that represent both clinical and data science perspectives. Promote pathways for interdisciplinary training. Hold HDS innovations to the same standards as other healthcare interventions, including requirements for prospective validation and clear demonstration of impact |
+| Audit Health Data Science on Ethical Metrics | Mandate assessments of the performance of novel HDS technology for impacts on marginalized and intersectional groups. Record racial data necessary to perform these audits in an ongoing fashion |
+| Mandate Transparency in Data Collection, Analysis, and Usage | Build patient trust by ensuring that protocols for the collection, analysis, and usage of data are transparent and open |
+| Promote Inclusive and Interoperable Data Policy | Ensure the existence of clear and ethical methods for ensuring the sharing of data between different sources while protecting patient rights and privacy. Ensure that global partners are included, so that interoperability barriers do not hinder inclusive global collaboration |
