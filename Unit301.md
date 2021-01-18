@@ -269,3 +269,8 @@ Focusing too directly on "biased data" or "poor model design", however, can be i
   * Deployment Bias arises when the model is used or interpreted in inappropriate ways after model deployment.
 The diversity of machine learning practitioners is another important component of the sociotechnical context. Women and BIPOC individuals are broadly underrepresented in the machine learning world, and this has implications for the field's "blind spots", and the questions that are and are not asked during the development process.
 
+## Fairness and Bias in Machine Learning for Healthcare
+
+Changes in healthcare practice brought on by the introduction of models may introduce novel inequities into healthcare. One clear example of this was the introduction of melanoma-detection algorithms that are trained predominantly on images of light skin. (JAMA Netw Open. 2019;2(10):e1913436. doi:10.1001/jamanetworkopen.2019.13436)
+
+
