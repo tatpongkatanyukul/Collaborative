@@ -1,5 +1,7 @@
 # Collaborative Data Science for Healthcare
 
+![Certificate](https://github.com/tatpongkatanyukul/Collaborative/blob/main/Certificate.pdf)
+
 Learning Collaborative Data Science for Healthcare on EdX (MITx - HST.953x, started Nov 3rd, 2020; End Jan 25th, 2021)
 
 ## Free course e-books
